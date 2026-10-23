@@ -305,7 +305,7 @@
   {
    "name": "直播精选(实测1107条)",
    "type": 0,
-   "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/Venus521/tv-cdn/main/iptv.m3u",
+   "url": "https://precious-smakager-b2d3a9.netlify.app/iptv.m3u",
    "epg": "https://live.fanmingming.cn/e.xml"
   }
  ],
