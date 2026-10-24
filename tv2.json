@@ -311,7 +311,7 @@
   {
    "name": "海外直播(实测2357台)",
    "type": 0,
-   "url": "https://cdn.jsdelivr.net/gh/Venus521/tv-cdn@main/global.m3u",
+   "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/Venus521/tv-cdn/main/global.m3u",
    "epg": ""
   }
  ],
