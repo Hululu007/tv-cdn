@@ -2,12 +2,12 @@
 #PLAYLIST:电视直播精选（同台归并·每台最快2条）
 #EXTINF:-1 tvg-name="CCTV" tvg-logo="https://live.fanmingming.cn/tv/CCTV.png" group-title="央视频道" response-time="1513ms",CCTV
 https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/charlotte/G0055_009/playlist.m3u8
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="央视频道" response-time="66ms",CCTV1
-http://120.198.95.220:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&down=1
-http://112.123.243.37:50085/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV+2(600p)" tvg-logo="https://live.fanmingming.cn/tv/CCTV+2(600p).png" group-title="央视频道" response-time="444ms",CCTV+2(600p)
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 http://103.236.77.86:29824/631780532
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="央视频道" response-time="66ms",CCTV1
+http://120.198.95.220:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&down=1
+http://112.123.243.37:50085/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://live.fanmingming.cn/tv/CCTV10.png" group-title="央视频道" response-time="173ms",CCTV10
 http://112.123.243.37:50085/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0
 http://113.98.11.46:3000/624878405
@@ -19,7 +19,7 @@ http://112.123.243.37:50085/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid
 http://113.98.11.46:3000/673168185
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://live.fanmingming.cn/tv/CCTV13.png" group-title="央视频道" response-time="217ms",CCTV13
 http://112.123.243.37:50085/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0
-https://event.pull.hebtv.com/jishi/cp1.m3u8
+http://171.213.171.190:8899/udp/239.94.0.37:5140
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://live.fanmingming.cn/tv/CCTV14.png" group-title="央视频道" response-time="260ms",CCTV14
 http://101.66.195.232:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0
 http://112.123.243.37:50085/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -62,6 +62,14 @@ https://live.264788.xyz/channel/huaijiujuchang?streamid=7e5d1abdddde08f588234f3f
 https://live.264788.xyz/channel/yangshiwenhuajingpin?streamid=bc185d1ef1e528922e83efd845006277&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="CCTV第一剧场" tvg-logo="https://live.fanmingming.cn/tv/CCTV第一剧场.png" group-title="央视频道" response-time="2269ms",CCTV第一剧场
 https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 tvg-name="CETV1" tvg-logo="https://live.fanmingming.cn/tv/CETV1.png" group-title="央视频道" response-time="653ms",CETV1
+http://36.22.80.199:4022/udp/233.50.201.75:5140
+http://171.213.171.190:8899/udp/239.94.1.2:5140
+#EXTINF:-1 tvg-name="CETV2" tvg-logo="https://live.fanmingming.cn/tv/CETV2.png" group-title="央视频道" response-time="500ms",CETV2
+http://171.213.171.190:8899/udp/239.94.1.19:5140
+http://171.213.171.190:8899/udp/239.94.2.228:5140
+#EXTINF:-1 tvg-name="CETV4" tvg-logo="https://live.fanmingming.cn/tv/CETV4.png" group-title="央视频道" response-time="603ms",CETV4
+http://171.213.171.190:8899/udp/239.94.1.20:5140
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="央视频道" response-time="320ms",CGTN
 http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 https://0472.org/hls/cgtn.m3u8
@@ -73,13 +81,16 @@ http://113.98.11.46:3000/609006487
 http://103.236.77.86:29824/609006487
 #EXTINF:-1 tvg-name="CGTN法语" tvg-logo="https://live.fanmingming.cn/tv/CGTN法语.png" group-title="央视频道" response-time="147ms",CGTN法语
 http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
-https://0472.org/hls/cgtnf.m3u8
+http://36.22.80.199:4022/udp/233.50.201.37:5140
 #EXTINF:-1 tvg-name="CGTN纪录" tvg-logo="https://live.fanmingming.cn/tv/CGTN纪录.png" group-title="央视频道" response-time="1546ms",CGTN纪录
 https://0472.org/hls/cgtnd.m3u8
+#EXTINF:-1 tvg-name="CGTN西班牙" tvg-logo="https://live.fanmingming.cn/tv/CGTN西班牙.png" group-title="央视频道" response-time="1922ms",CGTN西班牙
+http://36.22.80.199:4022/udp/233.50.201.36:5140
 #EXTINF:-1 tvg-name="CGTN西班牙语" tvg-logo="https://live.fanmingming.cn/tv/CGTN西班牙语.png" group-title="央视频道" response-time="417ms",CGTN西班牙语
 http://113.98.11.46:3000/609006450
 http://103.236.77.86:29824/609006450
-#EXTINF:-1 tvg-name="CGTN西语" tvg-logo="https://live.fanmingming.cn/tv/CGTN西语.png" group-title="央视频道" response-time="1542ms",CGTN西语
+#EXTINF:-1 tvg-name="CGTN西语" tvg-logo="https://live.fanmingming.cn/tv/CGTN西语.png" group-title="央视频道" response-time="1171ms",CGTN西语
+http://171.213.171.190:8899/udp/239.94.2.237:5140
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-name="CGTN阿拉伯语" tvg-logo="https://live.fanmingming.cn/tv/CGTN阿拉伯语.png" group-title="央视频道" response-time="463ms",CGTN阿拉伯语
 http://113.98.11.46:3000/609154345
@@ -103,7 +114,7 @@ https://www.goodiptv.club/douyu/9629943
 https://live.264788.xyz/channel/fengyunjuchang?streamid=31e7b5b7032d25dd215a4069cdee1a48&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-name="三沙卫视" tvg-logo="https://live.fanmingming.cn/tv/三沙卫视.png" group-title="卫视频道" response-time="731ms",三沙卫视
 http://113.98.11.46:3000/961023778
-http://103.236.77.86:29824/961023778
+http://171.213.171.190:8899/udp/239.94.0.105:5140
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://live.fanmingming.cn/tv/东南卫视.png" group-title="卫视频道" response-time="446ms",东南卫视
 http://101.66.195.232:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
 http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
@@ -125,10 +136,13 @@ http://112.123.243.37:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid
 http://113.98.11.46:3000/956923145
 #EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://live.fanmingming.cn/tv/内蒙古卫视.png" group-title="卫视频道" response-time="121ms",内蒙古卫视
 http://218.13.170.98:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
-http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
+http://171.213.171.190:8899/udp/239.94.0.94:5140
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://live.fanmingming.cn/tv/北京卫视.png" group-title="卫视频道" response-time="443ms",北京卫视
 http://112.123.243.37:50085/tsfile/live/0127_1.m3u8?key=txiptv&playlive=0&authid=0
 http://113.98.11.46:3000/630287636
+#EXTINF:-1 tvg-name="厦门卫视" tvg-logo="https://live.fanmingming.cn/tv/厦门卫视.png" group-title="卫视频道" response-time="1550ms",厦门卫视
+http://171.213.171.190:8899/udp/239.94.0.104:5140
+http://171.213.171.190:8899/udp/239.94.2.210:5140
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://live.fanmingming.cn/tv/吉林卫视.png" group-title="卫视频道" response-time="359ms",吉林卫视
 http://112.123.243.37:50085/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
 http://101.66.195.232:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -154,6 +168,8 @@ http://112.123.243.37:50085/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid
 http://101.66.194.176:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="山东教育" tvg-logo="https://live.fanmingming.cn/tv/山东教育.png" group-title="卫视频道" response-time="241ms",山东教育
 https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
+#EXTINF:-1 tvg-name="山东教育卫视" tvg-logo="https://live.fanmingming.cn/tv/山东教育卫视.png" group-title="卫视频道" response-time="2400ms",山东教育卫视
+http://171.213.171.190:8899/udp/239.94.0.106:5140
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://live.fanmingming.cn/tv/山西卫视.png" group-title="卫视频道" response-time="422ms",山西卫视
 http://112.123.243.37:50085/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
 http://101.66.198.84:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -163,12 +179,17 @@ http://101.66.194.29:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://live.fanmingming.cn/tv/广西卫视.png" group-title="卫视频道" response-time="389ms",广西卫视
 http://101.66.195.232:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
 http://112.123.243.37:50085/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="康巴卫视" tvg-logo="https://live.fanmingming.cn/tv/康巴卫视.png" group-title="卫视频道" response-time="1084ms",康巴卫视
+http://171.213.171.190:8899/udp/239.94.0.78:5140
 #EXTINF:-1 tvg-name="延边卫视" tvg-logo="https://live.fanmingming.cn/tv/延边卫视.png" group-title="卫视频道" response-time="442ms",延边卫视
 https://srs.iyb983.cn/video/CYS/index.m3u8
 https://srs.iyb983.cn:443/video/CYS/index.m3u8
 #EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://live.fanmingming.cn/tv/新疆卫视.png" group-title="卫视频道" response-time="368ms",新疆卫视
 http://112.123.243.37:50085/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
 http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
+#EXTINF:-1 tvg-name="旅游卫视" tvg-logo="https://live.fanmingming.cn/tv/旅游卫视.png" group-title="卫视频道" response-time="1000ms",旅游卫视
+http://171.213.171.190:8899/udp/239.94.0.100:5140
+http://171.213.171.190:8899/udp/239.94.2.206:5140
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://live.fanmingming.cn/tv/江苏卫视.png" group-title="卫视频道" response-time="417ms",江苏卫视
 http://112.123.243.37:50085/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0
 http://113.98.11.46:3000/623899368
@@ -180,13 +201,13 @@ http://101.66.194.176:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=
 http://112.123.243.37:50085/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://live.fanmingming.cn/tv/河南卫视.png" group-title="卫视频道" response-time="609ms",河南卫视
 http://113.98.11.46:3000/790187291
-https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=985ebb910dd1e9ad9603ffd7670bd155&wsTime=1791183481
+http://36.22.80.199:4022/udp/233.50.201.44:5140
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.cn/tv/浙江卫视.png" group-title="卫视频道" response-time="415ms",浙江卫视
 http://101.66.194.29:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
 http://112.123.243.37:50085/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://live.fanmingming.cn/tv/海南卫视.png" group-title="卫视频道" response-time="555ms",海南卫视
 http://113.98.11.46:3000/947472502
-http://103.236.77.86:29824/947472502
+http://36.22.80.199:4022/udp/233.50.201.55:5140
 #EXTINF:-1 tvg-name="海峡卫视" tvg-logo="https://live.fanmingming.cn/tv/海峡卫视.png" group-title="卫视频道" response-time="627ms",海峡卫视
 http://113.98.11.46:3000/849119120
 http://103.236.77.86:29824/849119120
@@ -227,6 +248,8 @@ https://hkstv.tv/api/m3u8-proxy?url=http%3A%2F%2Fwebcast.hkstv.tv%2Flivestream%2
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://live.fanmingming.cn/tv/黑龙江卫视.png" group-title="卫视频道" response-time="405ms",黑龙江卫视
 http://101.66.194.176:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
 http://112.123.243.37:50085/tsfile/live/0142_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="i成都" tvg-logo="https://live.fanmingming.cn/tv/i成都.png" group-title="地方频道" response-time="1300ms",i成都
+http://171.213.171.190:8899/udp/239.94.2.1:5140
 #EXTINF:-1 tvg-name="七台河新闻" tvg-logo="https://live.fanmingming.cn/tv/七台河新闻.png" group-title="地方频道" response-time="1167ms",七台河新闻
 http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="万州三峡移民" tvg-logo="https://live.fanmingming.cn/tv/万州三峡移民.png" group-title="地方频道" response-time="210ms",万州三峡移民
@@ -260,10 +283,18 @@ https://live.goodiptv.club/api/itouch.php?id=1235
 http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 #EXTINF:-1 tvg-name="中国蓝" tvg-logo="https://live.fanmingming.cn/tv/中国蓝.png" group-title="地方频道" response-time="469ms",中国蓝
 http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
+#EXTINF:-1 tvg-name="中国蓝直播" tvg-logo="https://live.fanmingming.cn/tv/中国蓝直播.png" group-title="地方频道" response-time="1324ms",中国蓝直播
+http://36.22.80.199:4022/udp/233.50.201.108:5140
+#EXTINF:-1 tvg-name="乐山" tvg-logo="https://live.fanmingming.cn/tv/乐山.png" group-title="地方频道" response-time="1196ms",乐山
+http://171.213.171.190:8899/udp/239.94.0.162:5140
+#EXTINF:-1 tvg-name="乐游" tvg-logo="https://live.fanmingming.cn/tv/乐游.png" group-title="地方频道" response-time="5315ms",乐游
+http://171.213.171.190:8899/udp/239.94.1.164:5140
 #EXTINF:-1 tvg-name="乐至" tvg-logo="https://live.fanmingming.cn/tv/乐至.png" group-title="地方频道" response-time="453ms",乐至
 http://175.155.106.72:89/live1/live1.m3u8?zsicd
 #EXTINF:-1 tvg-name="九台" tvg-logo="https://live.fanmingming.cn/tv/九台.png" group-title="地方频道" response-time="899ms",九台
 http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8
+#EXTINF:-1 tvg-name="书法频道" tvg-logo="https://live.fanmingming.cn/tv/书法频道.png" group-title="地方频道" response-time="434ms",书法频道
+http://171.213.171.190:8899/udp/239.94.1.163:5140
 #EXTINF:-1 tvg-name="云南娱乐" tvg-logo="https://live.fanmingming.cn/tv/云南娱乐.png" group-title="地方频道" response-time="668ms",云南娱乐
 https://hwapi.yntv.net/62hdvf/q9vs1b.m3u8
 #EXTINF:-1 tvg-name="云南都市" tvg-logo="https://live.fanmingming.cn/tv/云南都市.png" group-title="地方频道" response-time="654ms",云南都市
@@ -271,6 +302,8 @@ https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
 #EXTINF:-1 tvg-name="云和新闻" tvg-logo="https://live.fanmingming.cn/tv/云和新闻.png" group-title="新闻财经" response-time="173ms",云和新闻
 http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8?zzhed
 http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8
+#EXTINF:-1 tvg-name="云看熊猫专区" tvg-logo="https://live.fanmingming.cn/tv/云看熊猫专区.png" group-title="地方频道" response-time="393ms",云看熊猫专区
+http://171.213.171.190:8899/udp/239.94.1.7:5140
 #EXTINF:-1 tvg-name="云霄" tvg-logo="https://live.fanmingming.cn/tv/云霄.png" group-title="地方频道" response-time="948ms",云霄
 https://live.zzyxxw.com:2443/live/xwzh.m3u8
 #EXTINF:-1 tvg-name="井研" tvg-logo="https://live.fanmingming.cn/tv/井研.png" group-title="地方频道" response-time="1446ms",井研
@@ -317,6 +350,16 @@ https://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8?zxinjd
 http://liveout.btzx.com.cn/62ds9e/4nxdih.m3u8?fbl=
 #EXTINF:-1 tvg-name="兵团八师石河子新闻" tvg-logo="https://live.fanmingming.cn/tv/兵团八师石河子新闻.png" group-title="地方频道" response-time="727ms",兵团八师石河子新闻
 http://124.88.144.73:1935/live/xwzh/playlist.m3u8?zxinjd
+#EXTINF:-1 tvg-name="内江" tvg-logo="https://live.fanmingming.cn/tv/内江.png" group-title="地方频道" response-time="1000ms",内江
+http://171.213.171.190:8899/udp/239.94.0.164:5140
+#EXTINF:-1 tvg-name="内江科教生活" tvg-logo="https://live.fanmingming.cn/tv/内江科教生活.png" group-title="地方频道" response-time="2500ms",内江科教生活
+http://171.213.171.190:8899/udp/239.94.0.181:5140
+#EXTINF:-1 tvg-name="军事专区" tvg-logo="https://live.fanmingming.cn/tv/军事专区.png" group-title="地方频道" response-time="421ms",军事专区
+http://171.213.171.190:8899/udp/239.94.1.52:5140
+#EXTINF:-1 tvg-name="凉山" tvg-logo="https://live.fanmingming.cn/tv/凉山.png" group-title="地方频道" response-time="773ms",凉山
+http://171.213.171.190:8899/udp/239.94.0.171:5140
+#EXTINF:-1 tvg-name="凉山彝语" tvg-logo="https://live.fanmingming.cn/tv/凉山彝语.png" group-title="地方频道" response-time="1600ms",凉山彝语
+http://171.213.171.190:8899/udp/239.94.0.175:5140
 #EXTINF:-1 tvg-name="剑阁" tvg-logo="https://live.fanmingming.cn/tv/剑阁.png" group-title="地方频道" response-time="893ms",剑阁
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8
 #EXTINF:-1 tvg-name="北京" tvg-logo="https://live.fanmingming.cn/tv/北京.png" group-title="地方频道" response-time="930ms",北京
@@ -389,16 +432,30 @@ http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
 http://stream.hrbtv.net/zxpd/sd/live.m3u8
 #EXTINF:-1 tvg-name="哈尔滨都市咨询" tvg-logo="https://live.fanmingming.cn/tv/哈尔滨都市咨询.png" group-title="地方频道" response-time="446ms",哈尔滨都市咨询
 http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild
+#EXTINF:-1 tvg-name="嘉兴" tvg-logo="https://live.fanmingming.cn/tv/嘉兴.png" group-title="地方频道" response-time="1100ms",嘉兴
+http://36.22.80.199:4022/udp/233.50.201.163:5140
 #EXTINF:-1 tvg-name="嘉兴新闻" tvg-logo="https://live.fanmingming.cn/tv/嘉兴新闻.png" group-title="地方频道" response-time="1166ms",嘉兴新闻
 http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 #EXTINF:-1 tvg-name="嘉峪关" tvg-logo="https://live.fanmingming.cn/tv/嘉峪关.png" group-title="地方频道" response-time="336ms",嘉峪关
 http://play.kankanlive.com/live/1720583434627241.m3u8
+#EXTINF:-1 tvg-name="四川乡村" tvg-logo="https://live.fanmingming.cn/tv/四川乡村.png" group-title="地方频道" response-time="689ms",四川乡村
+http://171.213.171.190:8899/udp/239.94.1.8:5140
+#EXTINF:-1 tvg-name="四川文化旅游" tvg-logo="https://live.fanmingming.cn/tv/四川文化旅游.png" group-title="地方频道" response-time="637ms",四川文化旅游
+http://171.213.171.190:8899/udp/239.94.0.71:5140
+http://171.213.171.190:8899/udp/239.94.1.5:5140
+#EXTINF:-1 tvg-name="四川星空购物" tvg-logo="https://live.fanmingming.cn/tv/四川星空购物.png" group-title="地方频道" response-time="448ms",四川星空购物
+http://171.213.171.190:8899/udp/239.94.0.74:5140
 #EXTINF:-1 tvg-name="固镇" tvg-logo="https://live.fanmingming.cn/tv/固镇.png" group-title="地方频道" response-time="538ms",固镇
 http://www.guzhenm.com:7001/hls/hd-live.m3u8
+#EXTINF:-1 tvg-name="地理专区" tvg-logo="https://live.fanmingming.cn/tv/地理专区.png" group-title="地方频道" response-time="4100ms",地理专区
+http://171.213.171.190:8899/udp/239.94.1.54:5140
 #EXTINF:-1 tvg-name="壶关电视台" tvg-logo="https://live.fanmingming.cn/tv/壶关电视台.png" group-title="地方频道" response-time="519ms",壶关电视台
 http://zmjp3jin.live.sxmty.com/live/hls/268fe96f955d496db37fb10bb887cda9/fc196029d289449ea524a94a95379a0d.m3u8?zshanxd
 #EXTINF:-1 tvg-name="大宁" tvg-logo="https://live.fanmingming.cn/tv/大宁.png" group-title="地方频道" response-time="569ms",大宁
 http://live.daningtv.com/aac_dngb/playlist.m3u8
+#EXTINF:-1 tvg-name="大爱四川专区" tvg-logo="https://live.fanmingming.cn/tv/大爱四川专区.png" group-title="地方频道" response-time="572ms",大爱四川专区
+http://171.213.171.190:8899/udp/239.94.1.14:5140
+http://171.213.171.190:8899/udp/239.94.1.13:5140
 #EXTINF:-1 tvg-name="天祝" tvg-logo="https://live.fanmingming.cn/tv/天祝.png" group-title="地方频道" response-time="446ms",天祝
 https://play.kankanlive.com/live/1656487214793905.m3u8
 #EXTINF:-1 tvg-name="太谷新闻" tvg-logo="https://live.fanmingming.cn/tv/太谷新闻.png" group-title="地方频道" response-time="818ms",太谷新闻
@@ -408,6 +465,12 @@ http://tvfile.jjrm.org.cn/nmip-media/channellive/channel106282/playlist.m3u8
 http://tvfile.jjrm.org.cn/nmip-media/channellive/channel106282/playlist.m3u8?zsicd
 #EXTINF:-1 tvg-name="奎屯哈萨克语" tvg-logo="https://live.fanmingming.cn/tv/奎屯哈萨克语.png" group-title="地方频道" response-time="470ms",奎屯哈萨克语
 http://218.84.12.186:8002/hls/main/playlist.m3u8?zxinjd
+#EXTINF:-1 tvg-name="宁波" tvg-logo="https://live.fanmingming.cn/tv/宁波.png" group-title="地方频道" response-time="657ms",宁波
+http://36.22.80.199:4022/udp/233.50.201.168:5140
+#EXTINF:-1 tvg-name="宁波文体" tvg-logo="https://live.fanmingming.cn/tv/宁波文体.png" group-title="地方频道" response-time="641ms",宁波文体
+http://36.22.80.199:4022/udp/233.50.201.179:5140
+#EXTINF:-1 tvg-name="宁波生活" tvg-logo="https://live.fanmingming.cn/tv/宁波生活.png" group-title="地方频道" response-time="606ms",宁波生活
+http://36.22.80.199:4022/udp/233.50.201.178:5140
 #EXTINF:-1 tvg-name="安徽导视" tvg-logo="https://live.fanmingming.cn/tv/安徽导视.png" group-title="地方频道" response-time="438ms",安徽导视
 http://dspdhls.appcoo.com:8888/live/dspd/index.m3u8
 #EXTINF:-1 tvg-name="定襄" tvg-logo="https://live.fanmingming.cn/tv/定襄.png" group-title="地方频道" response-time="1063ms",定襄
@@ -417,6 +480,10 @@ https://play.kankanlive.com/live/1645680054929933.m3u8?zgand
 #EXTINF:-1 tvg-name="宜兴新闻" tvg-logo="https://live.fanmingming.cn/tv/宜兴新闻.png" group-title="地方频道" response-time="580ms",宜兴新闻
 http://113.98.11.46:3000/955227996
 http://103.236.77.86:29824/955227996
+#EXTINF:-1 tvg-name="宜宾" tvg-logo="https://live.fanmingming.cn/tv/宜宾.png" group-title="地方频道" response-time="412ms",宜宾
+http://171.213.171.190:8899/udp/239.94.0.161:5140
+#EXTINF:-1 tvg-name="宜宾公共" tvg-logo="https://live.fanmingming.cn/tv/宜宾公共.png" group-title="地方频道" response-time="1482ms",宜宾公共
+http://171.213.171.190:8899/udp/239.94.0.172:5140
 #EXTINF:-1 tvg-name="宿州公共" tvg-logo="https://live.fanmingming.cn/tv/宿州公共.png" group-title="地方频道" response-time="247ms",宿州公共
 http://live.ahsz.tv/video/s10001-ggpd/index.m3u8?zanhd
 #EXTINF:-1 tvg-name="宿迁新闻" tvg-logo="https://live.fanmingming.cn/tv/宿迁新闻.png" group-title="地方频道" response-time="413ms",宿迁新闻
@@ -424,6 +491,8 @@ http://113.98.11.46:3000/639731832
 http://103.236.77.86:29824/639731832
 #EXTINF:-1 tvg-name="山东生活" tvg-logo="https://live.fanmingming.cn/tv/山东生活.png" group-title="地方频道" response-time="335ms",山东生活
 http://ls.qingting.fm/live/60260.m3u8
+#EXTINF:-1 tvg-name="峨眉" tvg-logo="https://live.fanmingming.cn/tv/峨眉.png" group-title="地方频道" response-time="2843ms",峨眉
+http://171.213.171.190:8899/udp/239.94.0.103:5140
 #EXTINF:-1 tvg-name="嵊州新闻" tvg-logo="https://live.fanmingming.cn/tv/嵊州新闻.png" group-title="新闻财经" response-time="88ms",嵊州新闻
 http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed
 http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
@@ -448,7 +517,8 @@ http://113.98.11.46:3000/639731952
 http://103.236.77.86:29824/639731952
 #EXTINF:-1 tvg-name="广东经济" tvg-logo="https://live.fanmingming.cn/tv/广东经济.png" group-title="地方频道" response-time="1961ms",广东经济
 https://live.goodiptv.club/api/itouch.php?id=1196
-#EXTINF:-1 tvg-name="广元" tvg-logo="https://live.fanmingming.cn/tv/广元.png" group-title="地方频道" response-time="766ms",广元
+#EXTINF:-1 tvg-name="广元" tvg-logo="https://live.fanmingming.cn/tv/广元.png" group-title="地方频道" response-time="713ms",广元
+http://171.213.171.190:8899/udp/239.94.0.167:5140
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8
 #EXTINF:-1 tvg-name="广元公共" tvg-logo="https://live.fanmingming.cn/tv/广元公共.png" group-title="地方频道" response-time="745ms",广元公共
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8
@@ -479,8 +549,22 @@ http://113.98.11.46:3000/639731747
 http://103.236.77.86:29824/639731747
 #EXTINF:-1 tvg-name="德惠" tvg-logo="https://live.fanmingming.cn/tv/德惠.png" group-title="地方频道" response-time="956ms",德惠
 http://stream11.jlntv.cn/dehuitv/sd/live.m3u8
+#EXTINF:-1 tvg-name="德阳文旅" tvg-logo="https://live.fanmingming.cn/tv/德阳文旅.png" group-title="地方频道" response-time="600ms",德阳文旅
+http://171.213.171.190:8899/udp/239.94.0.165:5140
 #EXTINF:-1 tvg-name="怀仁" tvg-logo="https://live.fanmingming.cn/tv/怀仁.png" group-title="地方频道" response-time="1667ms",怀仁
 https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8
+#EXTINF:-1 tvg-name="成都" tvg-logo="https://live.fanmingming.cn/tv/成都.png" group-title="地方频道" response-time="355ms",成都
+http://171.213.171.190:8899/udp/239.94.0.154:5140
+http://171.213.171.190:8899/udp/239.94.0.159:5140
+#EXTINF:-1 tvg-name="成都公共" tvg-logo="https://live.fanmingming.cn/tv/成都公共.png" group-title="地方频道" response-time="757ms",成都公共
+http://171.213.171.190:8899/udp/239.94.0.158:5140
+#EXTINF:-1 tvg-name="成都蓉城先锋" tvg-logo="https://live.fanmingming.cn/tv/成都蓉城先锋.png" group-title="地方频道" response-time="571ms",成都蓉城先锋
+http://171.213.171.190:8899/udp/239.94.0.160:5140
+http://171.213.171.190:8899/udp/239.94.1.57:5140
+#EXTINF:-1 tvg-name="成都都市" tvg-logo="https://live.fanmingming.cn/tv/成都都市.png" group-title="地方频道" response-time="831ms",成都都市
+http://171.213.171.190:8899/udp/239.94.0.156:5140
+#EXTINF:-1 tvg-name="攀枝花" tvg-logo="https://live.fanmingming.cn/tv/攀枝花.png" group-title="地方频道" response-time="1600ms",攀枝花
+http://171.213.171.190:8899/udp/239.94.0.168:5140
 #EXTINF:-1 tvg-name="敦化一套" tvg-logo="https://live.fanmingming.cn/tv/敦化一套.png" group-title="地方频道" response-time="584ms",敦化一套
 http://stream8.jlntv.cn/dhtv/playlist.m3u8
 #EXTINF:-1 tvg-name="文成" tvg-logo="https://live.fanmingming.cn/tv/文成.png" group-title="地方频道" response-time="368ms",文成
@@ -515,6 +599,14 @@ https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
 #EXTINF:-1 tvg-name="来宾" tvg-logo="https://live.fanmingming.cn/tv/来宾.png" group-title="地方频道" response-time="708ms",来宾
 http://zb.gxlbamc.com:1935/live/lbzh.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="杭州" tvg-logo="https://live.fanmingming.cn/tv/杭州.png" group-title="地方频道" response-time="733ms",杭州
+http://36.22.80.199:4022/udp/233.50.201.173:5140
+#EXTINF:-1 tvg-name="杭州明珠" tvg-logo="https://live.fanmingming.cn/tv/杭州明珠.png" group-title="地方频道" response-time="704ms",杭州明珠
+http://36.22.80.199:4022/udp/233.50.201.174:5140
+#EXTINF:-1 tvg-name="杭州生活" tvg-logo="https://live.fanmingming.cn/tv/杭州生活.png" group-title="地方频道" response-time="809ms",杭州生活
+http://36.22.80.199:4022/udp/233.50.201.175:5140
+#EXTINF:-1 tvg-name="杭州青少" tvg-logo="https://live.fanmingming.cn/tv/杭州青少.png" group-title="地方频道" response-time="709ms",杭州青少
+http://36.22.80.199:4022/udp/233.50.201.177:5140
 #EXTINF:-1 tvg-name="松潘新闻" tvg-logo="https://live.fanmingming.cn/tv/松潘新闻.png" group-title="新闻财经" response-time="210ms",松潘新闻
 http://live.spccmc.com:90/live/spxwzh.m3u8?zsicd
 http://live.spccmc.com:90/live/spxwzh.m3u8
@@ -522,6 +614,8 @@ http://live.spccmc.com:90/live/spxwzh.m3u8
 http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
 #EXTINF:-1 tvg-name="柳河" tvg-logo="https://live.fanmingming.cn/tv/柳河.png" group-title="地方频道" response-time="709ms",柳河
 http://stream3.jlntv.cn:80/aac_lhgb/sd/live.m3u8
+#EXTINF:-1 tvg-name="桐乡" tvg-logo="https://live.fanmingming.cn/tv/桐乡.png" group-title="地方频道" response-time="1663ms",桐乡
+http://36.22.80.199:4022/udp/233.50.201.169:5140
 #EXTINF:-1 tvg-name="桦甸" tvg-logo="https://live.fanmingming.cn/tv/桦甸.png" group-title="地方频道" response-time="915ms",桦甸
 http://stream9.jlntv.cn:80/aac_huadiangb/playlist.m3u8
 #EXTINF:-1 tvg-name="梅河口" tvg-logo="https://live.fanmingming.cn/tv/梅河口.png" group-title="地方频道" response-time="817ms",梅河口
@@ -544,6 +638,8 @@ http://l.cztvcloud.com/channels/lantian/SXyongjia1/720p.m3u8
 http://tvpull.dxhmt.cn:9081/tv/11481-1.m3u8
 #EXTINF:-1 tvg-name="永昌" tvg-logo="https://live.fanmingming.cn/tv/永昌.png" group-title="地方频道" response-time="537ms",永昌
 https://play.kankanlive.com/live/1652755738635915.m3u8
+#EXTINF:-1 tvg-name="求索记录" tvg-logo="https://live.fanmingming.cn/tv/求索记录.png" group-title="地方频道" response-time="594ms",求索记录
+http://171.213.171.190:8899/udp/239.94.1.142:5140
 #EXTINF:-1 tvg-name="江夏新闻" tvg-logo="https://live.fanmingming.cn/tv/江夏新闻.png" group-title="地方频道" response-time="594ms",江夏新闻
 http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
 #EXTINF:-1 tvg-name="江苏" tvg-logo="https://live.fanmingming.cn/tv/江苏.png" group-title="地方频道" response-time="621ms",江苏
@@ -576,6 +672,9 @@ https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8?zhebd
 https://radio.pull.hebtv.com/live/hebnczx.m3u8
 #EXTINF:-1 tvg-name="河源公共" tvg-logo="https://live.fanmingming.cn/tv/河源公共.png" group-title="地方频道" response-time="2058ms",河源公共
 https://live.goodiptv.club/api/itouch.php?id=2496
+#EXTINF:-1 tvg-name="法治天地" tvg-logo="https://live.fanmingming.cn/tv/法治天地.png" group-title="地方频道" response-time="1236ms",法治天地
+http://36.22.80.199:4022/udp/233.50.201.191:5140
+http://36.22.80.199:4022/udp/233.50.200.120:5140
 #EXTINF:-1 tvg-name="泗洪新闻" tvg-logo="https://live.fanmingming.cn/tv/泗洪新闻.png" group-title="地方频道" response-time="1509ms",泗洪新闻
 http://live1.habctv.com/ggpdsl/sd/live.m3u8?zjiangsd#http://live1.habctv.com/ggpdsl/sd/live.m3u8
 #EXTINF:-1 tvg-name="泰州新闻" tvg-logo="https://live.fanmingming.cn/tv/泰州新闻.png" group-title="地方频道" response-time="645ms",泰州新闻
@@ -584,6 +683,8 @@ http://103.236.77.86:29824/639731818
 #EXTINF:-1 tvg-name="泸县新闻" tvg-logo="https://live.fanmingming.cn/tv/泸县新闻.png" group-title="新闻财经" response-time="183ms",泸县新闻
 http://lxfile.lxxcb.cn/nmip-media/channellive/channel103799/playlist.m3u8?zsicd
 http://lxfile.lxxcb.cn:80/nmip-media/channellive/channel103799/playlist.m3u8
+#EXTINF:-1 tvg-name="泸州" tvg-logo="https://live.fanmingming.cn/tv/泸州.png" group-title="地方频道" response-time="1000ms",泸州
+http://171.213.171.190:8899/udp/239.94.0.163:5140
 #EXTINF:-1 tvg-name="泸州公共" tvg-logo="https://live.fanmingming.cn/tv/泸州公共.png" group-title="地方频道" response-time="193ms",泸州公共
 http://m3u8.channel.luzhoubs.com/nmip-media/channellive/channel102221/playlist.m3u8?zsicd
 #EXTINF:-1 tvg-name="洞头" tvg-logo="https://live.fanmingming.cn/tv/洞头.png" group-title="地方频道" response-time="348ms",洞头
@@ -602,14 +703,17 @@ https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 #EXTINF:-1 tvg-name="浙江教科影视" tvg-logo="https://live.fanmingming.cn/tv/浙江教科影视.png" group-title="地方频道" response-time="370ms",浙江教科影视
 https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-#EXTINF:-1 tvg-name="浙江教育" tvg-logo="https://live.fanmingming.cn/tv/浙江教育.png" group-title="地方频道" response-time="411ms",浙江教育
+#EXTINF:-1 tvg-name="浙江教育" tvg-logo="https://live.fanmingming.cn/tv/浙江教育.png" group-title="地方频道" response-time="395ms",浙江教育
+http://36.22.80.199:4022/udp/233.50.201.134:5140
 http://ali-m-l.cztv.com/channels/lantian/channel04/720p.m3u8
 #EXTINF:-1 tvg-name="浙江数码时代" tvg-logo="https://live.fanmingming.cn/tv/浙江数码时代.png" group-title="地方频道" response-time="364ms",浙江数码时代
 http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8
 #EXTINF:-1 tvg-name="浙江民生" tvg-logo="https://live.fanmingming.cn/tv/浙江民生.png" group-title="地方频道" response-time="502ms",浙江民生
 https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?
+http://36.22.80.199:4022/udp/233.50.201.136:5140
 #EXTINF:-1 tvg-name="浙江生活" tvg-logo="https://live.fanmingming.cn/tv/浙江生活.png" group-title="地方频道" response-time="323ms",浙江生活
 http://ls.qingting.fm/live/1099.m3u8
+http://36.22.80.199:4022/udp/233.50.201.133:5140
 #EXTINF:-1 tvg-name="浙江留学" tvg-logo="https://live.fanmingming.cn/tv/浙江留学.png" group-title="地方频道" response-time="599ms",浙江留学
 http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8
 #EXTINF:-1 tvg-name="浙江经济" tvg-logo="https://live.fanmingming.cn/tv/浙江经济.png" group-title="地方频道" response-time="402ms",浙江经济
@@ -622,6 +726,7 @@ http://ali-m-l.cztv.com/channels/lantian/channel003/720p.m3u8
 http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8
 #EXTINF:-1 tvg-name="浙江钱江" tvg-logo="https://live.fanmingming.cn/tv/浙江钱江.png" group-title="地方频道" response-time="582ms",浙江钱江
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8?
+http://36.22.80.199:4022/udp/233.50.201.132:5140
 #EXTINF:-1 tvg-name="浙江钱江都市" tvg-logo="https://live.fanmingming.cn/tv/浙江钱江都市.png" group-title="地方频道" response-time="372ms",浙江钱江都市
 http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
@@ -657,8 +762,12 @@ http://103.236.77.86:29824/639731826
 https://live.goodiptv.club/api/itouch.php?id=1209
 #EXTINF:-1 tvg-name="清河经济" tvg-logo="https://live.fanmingming.cn/tv/清河经济.png" group-title="地方频道" response-time="562ms",清河经济
 https://jwcdnqx.hebyun.com.cn/live/qinghe1/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="温州" tvg-logo="https://live.fanmingming.cn/tv/温州.png" group-title="地方频道" response-time="627ms",温州
+http://36.22.80.199:4022/udp/233.50.201.87:5140
 #EXTINF:-1 tvg-name="渭源" tvg-logo="https://live.fanmingming.cn/tv/渭源.png" group-title="地方频道" response-time="329ms",渭源
 http://play.kankanlive.com/live/1720408280309109.m3u8
+#EXTINF:-1 tvg-name="湖州" tvg-logo="https://live.fanmingming.cn/tv/湖州.png" group-title="地方频道" response-time="800ms",湖州
+http://36.22.80.199:4022/udp/233.50.201.158:5140
 #EXTINF:-1 tvg-name="湖州公共民生" tvg-logo="https://live.fanmingming.cn/tv/湖州公共民生.png" group-title="地方频道" response-time="513ms",湖州公共民生
 http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e
 #EXTINF:-1 tvg-name="湖州文化娱乐" tvg-logo="https://live.fanmingming.cn/tv/湖州文化娱乐.png" group-title="地方频道" response-time="508ms",湖州文化娱乐
@@ -682,6 +791,12 @@ http://live.yantaitv.cn/live/3e81a8879da44c5dadf3bd9c10468e1c/9b776d420ee4438199
 http://live.yantaitv.cn/live/3e81a8879da44c5dadf3bd9c10468e1c/9b776d420ee4438199b7657c8eb88f07-1.m3u8
 #EXTINF:-1 tvg-name="烟台经济科技" tvg-logo="https://live.fanmingming.cn/tv/烟台经济科技.png" group-title="地方频道" response-time="854ms",烟台经济科技
 http://live.yantaitv.cn/live/27f84144e95a4652ae9e5c211b2a6b55/405f3e33ba384aa0a16014d0becd1261-1.m3u8
+#EXTINF:-1 tvg-name="爱乐山" tvg-logo="https://live.fanmingming.cn/tv/爱乐山.png" group-title="地方频道" response-time="1400ms",爱乐山
+http://171.213.171.190:8899/udp/239.94.2.2:5140
+#EXTINF:-1 tvg-name="爱宠宠物" tvg-logo="https://live.fanmingming.cn/tv/爱宠宠物.png" group-title="地方频道" response-time="563ms",爱宠宠物
+http://171.213.171.190:8899/udp/239.94.1.145:5140
+#EXTINF:-1 tvg-name="爱生活" tvg-logo="https://live.fanmingming.cn/tv/爱生活.png" group-title="地方频道" response-time="874ms",爱生活
+http://171.213.171.190:8899/udp/239.94.1.41:5140
 #EXTINF:-1 tvg-name="玛纳斯" tvg-logo="https://live.fanmingming.cn/tv/玛纳斯.png" group-title="地方频道" response-time="516ms",玛纳斯
 http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd,
 #EXTINF:-1 tvg-name="璧山" tvg-logo="https://live.fanmingming.cn/tv/璧山.png" group-title="地方频道" response-time="868ms",璧山
@@ -692,15 +807,24 @@ https://stream.hrbtv.net/zxpd/sd/live.m3u8
 https://satellitepull.cnr.cn/live/wxgshhzs/playlist.m3u8
 #EXTINF:-1 tvg-name="甘肃都市" tvg-logo="https://live.fanmingming.cn/tv/甘肃都市.png" group-title="地方频道" response-time="1121ms",甘肃都市
 https://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8
+#EXTINF:-1 tvg-name="生活时尚" tvg-logo="https://live.fanmingming.cn/tv/生活时尚.png" group-title="地方频道" response-time="973ms",生活时尚
+http://36.22.80.199:4022/udp/233.50.200.15:5140
+http://36.22.80.199:4022/udp/233.50.201.187:5140
 #EXTINF:-1 tvg-name="田电视台" tvg-logo="https://live.fanmingming.cn/tv/田电视台.png" group-title="地方频道" response-time="187ms",田电视台
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name="白山公共" tvg-logo="https://live.fanmingming.cn/tv/白山公共.png" group-title="地方频道" response-time="467ms",白山公共
 http://stream8.jlntv.cn/baishan2/playlist.m3u8?zjild
 #EXTINF:-1 tvg-name="白银" tvg-logo="https://live.fanmingming.cn/tv/白银.png" group-title="地方频道" response-time="420ms",白银
 http://play.kankanlive.com/live/1720408089419110.m3u8
+#EXTINF:-1 tvg-name="百变课堂" tvg-logo="https://live.fanmingming.cn/tv/百变课堂.png" group-title="地方频道" response-time="616ms",百变课堂
+http://171.213.171.190:8899/udp/239.94.1.43:5140
 #EXTINF:-1 tvg-name="盐城新闻" tvg-logo="https://live.fanmingming.cn/tv/盐城新闻.png" group-title="地方频道" response-time="607ms",盐城新闻
 http://113.98.11.46:3000/639731825
 http://103.236.77.86:29824/639731825
+#EXTINF:-1 tvg-name="眉山文旅乡村" tvg-logo="https://live.fanmingming.cn/tv/眉山文旅乡村.png" group-title="地方频道" response-time="585ms",眉山文旅乡村
+http://171.213.171.190:8899/udp/239.94.0.174:5140
+#EXTINF:-1 tvg-name="看天下精选" tvg-logo="https://live.fanmingming.cn/tv/看天下精选.png" group-title="地方频道" response-time="656ms",看天下精选
+http://171.213.171.190:8899/udp/239.94.1.68:5140
 #EXTINF:-1 tvg-name="磐石" tvg-logo="https://live.fanmingming.cn/tv/磐石.png" group-title="地方频道" response-time="864ms",磐石
 http://stream3.jlntv.cn:80/aac_psgb/sd/live.m3u8
 #EXTINF:-1 tvg-name="祁门" tvg-logo="https://live.fanmingming.cn/tv/祁门.png" group-title="地方频道" response-time="841ms",祁门
@@ -717,6 +841,8 @@ https://live.264788.xyz/channel/fujianlvyou?streamid=fc58882de71ce4575b66002f247
 http://satellitepull.cnr.cn/live/wx32fjdnjjgb/playlist.m3u8
 #EXTINF:-1 tvg-name="第一" tvg-logo="https://live.fanmingming.cn/tv/第一.png" group-title="地方频道" response-time="317ms",第一
 http://satellitepull.cnr.cn/live/wx32dycjgb/playlist.m3u8
+#EXTINF:-1 tvg-name="绍兴" tvg-logo="https://live.fanmingming.cn/tv/绍兴.png" group-title="地方频道" response-time="711ms",绍兴
+http://36.22.80.199:4022/udp/233.50.201.156:5140
 #EXTINF:-1 tvg-name="绍兴公共" tvg-logo="https://live.fanmingming.cn/tv/绍兴公共.png" group-title="地方频道" response-time="697ms",绍兴公共
 http://live.shaoxing.com.cn/video/s10001-sxtv2/index.m3u8
 #EXTINF:-1 tvg-name="绍兴电视台公共" tvg-logo="https://live.fanmingming.cn/tv/绍兴电视台公共.png" group-title="地方频道" response-time="724ms",绍兴电视台公共
@@ -727,6 +853,10 @@ http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed?
 http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8
 #EXTINF:-1 tvg-name="肇庆生活" tvg-logo="https://live.fanmingming.cn/tv/肇庆生活.png" group-title="地方频道" response-time="2046ms",肇庆生活
 https://live.goodiptv.club/api/itouch.php?id=2525
+#EXTINF:-1 tvg-name="自贡" tvg-logo="https://live.fanmingming.cn/tv/自贡.png" group-title="地方频道" response-time="1300ms",自贡
+http://171.213.171.190:8899/udp/239.94.0.169:5140
+#EXTINF:-1 tvg-name="自贡文化生活" tvg-logo="https://live.fanmingming.cn/tv/自贡文化生活.png" group-title="地方频道" response-time="700ms",自贡文化生活
+http://171.213.171.190:8899/udp/239.94.0.178:5140
 #EXTINF:-1 tvg-name="舒兰新闻" tvg-logo="https://live.fanmingming.cn/tv/舒兰新闻.png" group-title="地方频道" response-time="431ms",舒兰新闻
 http://stream8.jlntv.cn/shulan/sd/live.m3u8?_upt=332db6421699196585
 #EXTINF:-1 tvg-name="苍南新闻" tvg-logo="https://live.fanmingming.cn/tv/苍南新闻.png" group-title="新闻财经" response-time="274ms",苍南新闻
@@ -742,6 +872,9 @@ https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
 https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
 #EXTINF:-1 tvg-name="茌平生活" tvg-logo="https://live.fanmingming.cn/tv/茌平生活.png" group-title="地方频道" response-time="410ms",茌平生活
 https://jsylivealone302.iqilu.com/live/chiping_tv02/index.m3u8?shandd
+#EXTINF:-1 tvg-name="茶频道" tvg-logo="https://live.fanmingming.cn/tv/茶频道.png" group-title="地方频道" response-time="769ms",茶频道
+http://36.22.80.199:4022/udp/233.50.201.188:5140
+http://36.22.80.199:4022/udp/233.50.200.124:5140
 #EXTINF:-1 tvg-name="荆门新闻" tvg-logo="https://live.fanmingming.cn/tv/荆门新闻.png" group-title="新闻财经" response-time="182ms",荆门新闻
 http://stream.jmtv.com.cn/xwzh/sd/live.m3u8?zhubd
 https://stream.jmtv.com.cn/xwzh/playlist.m3u8?_upt=3e28e7271664278691
@@ -765,12 +898,18 @@ https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 http://ls.qingting.fm/live/2810.m3u8
 #EXTINF:-1 tvg-name="衡阳新闻" tvg-logo="https://live.fanmingming.cn/tv/衡阳新闻.png" group-title="地方频道" response-time="960ms",衡阳新闻
 https://liveplay-srs.voc.com.cn/hls/tv/183_554704.m3u8
+#EXTINF:-1 tvg-name="衢州" tvg-logo="https://live.fanmingming.cn/tv/衢州.png" group-title="地方频道" response-time="771ms",衢州
+http://36.22.80.199:4022/udp/233.50.202.11:5140
+#EXTINF:-1 tvg-name="衢州公共" tvg-logo="https://live.fanmingming.cn/tv/衢州公共.png" group-title="地方频道" response-time="1056ms",衢州公共
+http://36.22.80.199:4022/udp/233.50.202.12:5140
 #EXTINF:-1 tvg-name="衢江新闻" tvg-logo="https://live.fanmingming.cn/tv/衢江新闻.png" group-title="地方频道" response-time="607ms",衢江新闻
 http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name="西宁新闻" tvg-logo="https://live.fanmingming.cn/tv/西宁新闻.png" group-title="地方频道" response-time="1034ms",西宁新闻
 https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
 #EXTINF:-1 tvg-name="西峰" tvg-logo="https://live.fanmingming.cn/tv/西峰.png" group-title="地方频道" response-time="692ms",西峰
 https://play.kankanlive.com/live/1683944827526991.m3u8
+#EXTINF:-1 tvg-name="解密专区" tvg-logo="https://live.fanmingming.cn/tv/解密专区.png" group-title="地方频道" response-time="6200ms",解密专区
+http://171.213.171.190:8899/udp/239.94.1.53:5140
 #EXTINF:-1 tvg-name="诸暨新闻" tvg-logo="https://live.fanmingming.cn/tv/诸暨新闻.png" group-title="新闻财经" response-time="173ms",诸暨新闻
 http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed
 https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
@@ -782,6 +921,8 @@ http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
 #EXTINF:-1 tvg-name="财富天下" tvg-logo="https://live.fanmingming.cn/tv/财富天下.png" group-title="地方频道" response-time="538ms",财富天下
 http://113.98.11.46:3000/956923159
 http://103.236.77.86:29824/956923159
+#EXTINF:-1 tvg-name="资阳" tvg-logo="https://live.fanmingming.cn/tv/资阳.png" group-title="地方频道" response-time="584ms",资阳
+http://171.213.171.190:8899/udp/239.94.0.183:5140
 #EXTINF:-1 tvg-name="辉南新闻" tvg-logo="https://live.fanmingming.cn/tv/辉南新闻.png" group-title="地方频道" response-time="557ms",辉南新闻
 http://stream5.jlntv.cn/hn/sd/live.m3u8
 #EXTINF:-1 tvg-name="辽宁都市" tvg-logo="https://live.fanmingming.cn/tv/辽宁都市.png" group-title="地方频道" response-time="723ms",辽宁都市
@@ -807,6 +948,12 @@ https://jwcdnqx.hebyun.com.cn/live/hdgg/1500k/tzwj_video.m3u8
 https://jwcdnqx.hebyun.com.cn/live/hdkj/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://live.fanmingming.cn/tv/都市剧场.png" group-title="地方频道" response-time="676ms",都市剧场
 https://satellitepull.cnr.cn/live/wxcqxwgb/playlist.m3u8
+http://171.213.171.190:8899/udp/239.94.1.133:5140
+#EXTINF:-1 tvg-name="金华" tvg-logo="https://live.fanmingming.cn/tv/金华.png" group-title="地方频道" response-time="937ms",金华
+http://36.22.80.199:4022/udp/233.50.201.161:5140
+#EXTINF:-1 tvg-name="金色学堂" tvg-logo="https://live.fanmingming.cn/tv/金色学堂.png" group-title="地方频道" response-time="1247ms",金色学堂
+http://36.22.80.199:4022/udp/233.50.201.186:5140
+http://36.22.80.199:4022/udp/233.50.200.122:5140
 #EXTINF:-1 tvg-name="铜梁" tvg-logo="https://live.fanmingming.cn/tv/铜梁.png" group-title="地方频道" response-time="944ms",铜梁
 http://183.64.174.171:40123/ch1.m3u8?zzhongqd
 #EXTINF:-1 tvg-name="铜陵新闻" tvg-logo="https://live.fanmingming.cn/tv/铜陵新闻.png" group-title="地方频道" response-time="716ms",铜陵新闻
@@ -840,6 +987,10 @@ http://103.236.77.86:29824/956909358
 #EXTINF:-1 tvg-name="陕西银龄频道" tvg-logo="https://live.fanmingming.cn/tv/陕西银龄频道.png" group-title="地方频道" response-time="599ms",陕西银龄频道
 http://113.98.11.46:3000/956909362
 http://103.236.77.86:29824/956909362
+#EXTINF:-1 tvg-name="雅安" tvg-logo="https://live.fanmingming.cn/tv/雅安.png" group-title="地方频道" response-time="1700ms",雅安
+http://171.213.171.190:8899/udp/239.94.0.166:5140
+#EXTINF:-1 tvg-name="雅安文化生活" tvg-logo="https://live.fanmingming.cn/tv/雅安文化生活.png" group-title="地方频道" response-time="2500ms",雅安文化生活
+http://171.213.171.190:8899/udp/239.94.0.180:5140
 #EXTINF:-1 tvg-name="雅安新闻" tvg-logo="https://live.fanmingming.cn/tv/雅安新闻.png" group-title="地方频道" response-time="949ms",雅安新闻
 https://play.yunxya.com/channellive/xinwen.m3u8
 #EXTINF:-1 tvg-name="青川" tvg-logo="https://live.fanmingming.cn/tv/青川.png" group-title="地方频道" response-time="654ms",青川
@@ -851,6 +1002,8 @@ http://stream9.jlntv.cn:80/aac_jygb/playlist.m3u8
 #EXTINF:-1 tvg-name="靖江新闻" tvg-logo="https://live.fanmingming.cn/tv/靖江新闻.png" group-title="地方频道" response-time="422ms",靖江新闻
 http://ls.qingting.fm/live/23797.m3u8
 http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8?zjiangsd
+#EXTINF:-1 tvg-name="魅力时尚" tvg-logo="https://live.fanmingming.cn/tv/魅力时尚.png" group-title="地方频道" response-time="450ms",魅力时尚
+http://171.213.171.190:8899/udp/239.94.1.39:5140
 #EXTINF:-1 tvg-name="黑龙江" tvg-logo="https://live.fanmingming.cn/tv/黑龙江.png" group-title="地方频道" response-time="599ms",黑龙江
 https://ls.qingting.fm/live/4974/64k.m3u8
 #EXTINF:-1 tvg-name="黑龙江公共" tvg-logo="https://live.fanmingming.cn/tv/黑龙江公共.png" group-title="地方频道" response-time="1373ms",黑龙江公共
@@ -905,9 +1058,11 @@ https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.cn/tv/凤凰中文.png" group-title="港澳台" response-time="224ms",凤凰中文
 http://120.198.95.220:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&down=1
 http://r.jdshipin.com/cCCzW
+#EXTINF:-1 tvg-name="凤凰卫视" tvg-logo="https://live.fanmingming.cn/tv/凤凰卫视.png" group-title="港澳台" response-time="931ms",凤凰卫视
+http://171.213.171.190:8899/udp/239.94.2.52:5140
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰资讯.png" group-title="港澳台" response-time="261ms",凤凰资讯
 http://120.198.95.220:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&down=1
-http://r.jdshipin.com/0Rp07
+http://171.213.171.190:8899/udp/239.94.2.49:5140
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.cn/tv/凤凰香港.png" group-title="港澳台" response-time="1655ms",凤凰香港
 https://epg.pw/stream/8770e89223a086eb1b8a0c931e42296d772a8069ad3eb72540e0c434e7cb3e93.m3u8
 https://epg.pw/stream/5f16dc7fc8aaaed3205516c63e4a8c24bca9dbba1181684244729cf574505b0e.m3u8
@@ -1109,6 +1264,9 @@ http://stream.mcquack.net/457/index.m3u8
 #EXTINF:-1 tvg-name="DraftKingsNetwork" tvg-logo="https://live.fanmingming.cn/tv/DraftKingsNetwork.png" group-title="体育频道" response-time="1233ms",DraftKingsNetwork
 https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
 https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,DynamoKyivTV" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,DynamoKyivTV.png" group-title="体育频道" response-time="1313ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,DynamoKyivTV
+http://stream.mcquack.net/396/index.m3u8
+http://stream.mcquack.net/396/index.m3u8
 #EXTINF:-1 tvg-name="ESPN(UnitedStates)(432p)" tvg-logo="https://live.fanmingming.cn/tv/ESPN(UnitedStates)(432p).png" group-title="体育频道" response-time="1358ms",ESPN(UnitedStates)(432p)
 http://tvsen7.aynascope.net/espn/index.m3u8
 http://tvsen7.aynascope.net/espn/index.m3u8
@@ -1133,9 +1291,15 @@ https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8
 #EXTINF:-1 tvg-name="ESPN8:TheOcho" tvg-logo="https://live.fanmingming.cn/tv/ESPN8:TheOcho.png" group-title="体育频道" response-time="1400ms",ESPN8:TheOcho
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
+#EXTINF:-1 group-title="海外·国际体育" response-time="1795ms",ESPN Extra Latin America (1080p)
+https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?
+https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?
 #EXTINF:-1 tvg-name="ESPNLatinAmerica" tvg-logo="https://live.fanmingming.cn/tv/ESPNLatinAmerica.png" group-title="体育频道" response-time="1770ms",ESPNLatinAmerica
 https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8
 https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8
+#EXTINF:-1 group-title="海外·国际体育" response-time="1291ms",Equalympic (1080p)
+http://stream.mcquack.net/485/index.m3u8
+http://stream.mcquack.net/485/index.m3u8
 #EXTINF:-1 tvg-name="Equidia" tvg-logo="https://live.fanmingming.cn/tv/Equidia.png" group-title="体育频道" response-time="1189ms",Equidia
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
@@ -1187,6 +1351,9 @@ https://amg01074-fueltv-amg01074c1-firetv-us-3150.playouts.now.amagi.tv/playlist
 #EXTINF:-1 tvg-name="Fast&FunBox" tvg-logo="https://live.fanmingming.cn/tv/Fast&FunBox.png" group-title="体育频道" response-time="1871ms",Fast&FunBox
 https://dash3.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
 https://dash3.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Sports,FightBox" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Sports,FightBox.png" group-title="体育频道" response-time="2169ms",likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Sports,FightBox
+https://webtvstream.bhtelecom.ba/fightbox.m3u8
+https://webtvstream.bhtelecom.ba/fightbox.m3u8
 #EXTINF:-1 group-title="海外·国际体育" response-time="1870ms",FightBox HD
 https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
 https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
@@ -1210,6 +1377,9 @@ https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
 #EXTINF:-1 tvg-name="GloryKickboxingPoland" tvg-logo="https://live.fanmingming.cn/tv/GloryKickboxingPoland.png" group-title="体育频道" response-time="1524ms",GloryKickboxingPoland
 https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
 https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
+#EXTINF:-1 group-title="海外·国际体育" response-time="1263ms",Go3 Sport 1 (1080p)
+http://stream.mcquack.net/416/index.m3u8
+http://stream.mcquack.net/416/index.m3u8
 #EXTINF:-1 group-title="海外·国际体育" response-time="1832ms",Golf Channel
 https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
 https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
@@ -1285,6 +1455,9 @@ https://samitaorigin.tangotv.in/KABADDI24X7/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 tvg-name="KozoomTV" tvg-logo="https://live.fanmingming.cn/tv/KozoomTV.png" group-title="体育频道" response-time="1543ms",KozoomTV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/133.0.0.0Safari/537.36grouptitle=Sports,L'Equipe" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/133.0.0.0Safari/537.36grouptitle=Sports,L'Equipe.png" group-title="体育频道" response-time="1636ms",likeGecko)Chrome/133.0.0.0Safari/537.36grouptitle=Sports,L'Equipe
+https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8
+https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8
 #EXTINF:-1 tvg-name="L1Max" tvg-logo="https://live.fanmingming.cn/tv/L1Max.png" group-title="体育频道" response-time="1186ms",L1Max
 http://190.93.224.42/LIGA-1-MAX/index.m3u8
 http://190.93.224.42/LIGA-1-MAX/index.m3u8
@@ -1529,12 +1702,36 @@ https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m
 #EXTINF:-1 group-title="海外·国际体育" response-time="1718ms",San Marino RTV Sport (720p)
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
 https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
+#EXTINF:-1 group-title="海外·国际体育" response-time="1276ms",Setanta Sports 1 Eurasia (1080p)
+http://stream.mcquack.net/234/index.m3u8
+http://stream.mcquack.net/234/index.m3u8
+#EXTINF:-1 group-title="海外·国际体育" response-time="1316ms",Setanta Sports 2 Eurasia (1080p)
+http://stream.mcquack.net/235/index.m3u8
+http://stream.mcquack.net/235/index.m3u8
 #EXTINF:-1 tvg-name="SkyRacing1" tvg-logo="https://live.fanmingming.cn/tv/SkyRacing1.png" group-title="体育频道" response-time="3021ms",SkyRacing1
 https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8
 https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8
 #EXTINF:-1 group-title="海外·国际体育" response-time="1472ms",Slopes TV (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2241
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2241
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport1(Ukraine)(576p)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport1(Ukraine)(576p).png" group-title="体育频道" response-time="1302ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport1(Ukraine)(576p)
+http://stream.mcquack.net/391/index.m3u8
+http://stream.mcquack.net/391/index.m3u8
+#EXTINF:-1 group-title="海外·国际体育" response-time="1250ms",Sport 1 Baltic (1080p)
+http://stream.mcquack.net/461/index.m3u8
+http://stream.mcquack.net/461/index.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport2(Ukraine)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport2(Ukraine).png" group-title="体育频道" response-time="1293ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport2(Ukraine)
+http://stream.mcquack.net/392/index.m3u8
+http://stream.mcquack.net/392/index.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport3" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport3.png" group-title="体育频道" response-time="1275ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport3
+http://stream.mcquack.net/393/index.m3u8
+http://stream.mcquack.net/393/index.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport4(576p)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport4(576p).png" group-title="体育频道" response-time="1335ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport4(576p)
+http://stream.mcquack.net/394/index.m3u8
+http://stream.mcquack.net/394/index.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Sports,Sport5" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Sports,Sport5.png" group-title="体育频道" response-time="1262ms",likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Sports,Sport5
+http://stream.mcquack.net/212/index.m3u8
+http://stream.mcquack.net/212/index.m3u8
 #EXTINF:-1 tvg-name="Sportitalia" tvg-logo="https://live.fanmingming.cn/tv/Sportitalia.png" group-title="体育频道" response-time="1974ms",Sportitalia
 https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
 https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
@@ -1564,6 +1761,9 @@ https://rightsboosterltd-scl-1-be.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="StrongmanUK" tvg-logo="https://live.fanmingming.cn/tv/StrongmanUK.png" group-title="体育频道" response-time="1669ms",StrongmanUK
 https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8
 https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Suspilne.Sport" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Suspilne.Sport.png" group-title="体育频道" response-time="1302ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Suspilne.Sport
+http://stream.mcquack.net/444/index.m3u8
+http://stream.mcquack.net/444/index.m3u8
 #EXTINF:-1 tvg-name="SwerveCombat" tvg-logo="https://live.fanmingming.cn/tv/SwerveCombat.png" group-title="体育频道" response-time="1340ms",SwerveCombat
 https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
 https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
@@ -1736,51 +1936,8 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247
 #EXTINF:-1 tvg-name="beINSPORTSXTRA" tvg-logo="https://live.fanmingming.cn/tv/beINSPORTSXTRA.png" group-title="体育频道" response-time="1323ms",beINSPORTSXTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Sports,Sport5" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Sports,Sport5.png" group-title="体育频道" response-time="1262ms",likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Sports,Sport5
-http://stream.mcquack.net/212/index.m3u8
-http://stream.mcquack.net/212/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/133.0.0.0Safari/537.36grouptitle=Sports,L'Equipe" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/133.0.0.0Safari/537.36grouptitle=Sports,L'Equipe.png" group-title="体育频道" response-time="1636ms",likeGecko)Chrome/133.0.0.0Safari/537.36grouptitle=Sports,L'Equipe
-https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8
-https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8
-#EXTINF:-1 group-title="海外·国际体育" response-time="1795ms",ESPN Extra Latin America (1080p)
-https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?
-https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Sports,FightBox" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Sports,FightBox.png" group-title="体育频道" response-time="2169ms",likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Sports,FightBox
-https://webtvstream.bhtelecom.ba/fightbox.m3u8
-https://webtvstream.bhtelecom.ba/fightbox.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,DynamoKyivTV" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,DynamoKyivTV.png" group-title="体育频道" response-time="1313ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,DynamoKyivTV
-http://stream.mcquack.net/396/index.m3u8
-http://stream.mcquack.net/396/index.m3u8
-#EXTINF:-1 group-title="海外·国际体育" response-time="1291ms",Equalympic (1080p)
-http://stream.mcquack.net/485/index.m3u8
-http://stream.mcquack.net/485/index.m3u8
-#EXTINF:-1 group-title="海外·国际体育" response-time="1263ms",Go3 Sport 1 (1080p)
-http://stream.mcquack.net/416/index.m3u8
-http://stream.mcquack.net/416/index.m3u8
-#EXTINF:-1 group-title="海外·国际体育" response-time="1276ms",Setanta Sports 1 Eurasia (1080p)
-http://stream.mcquack.net/234/index.m3u8
-http://stream.mcquack.net/234/index.m3u8
-#EXTINF:-1 group-title="海外·国际体育" response-time="1316ms",Setanta Sports 2 Eurasia (1080p)
-http://stream.mcquack.net/235/index.m3u8
-http://stream.mcquack.net/235/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport1(Ukraine)(576p)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport1(Ukraine)(576p).png" group-title="体育频道" response-time="1302ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport1(Ukraine)(576p)
-http://stream.mcquack.net/391/index.m3u8
-http://stream.mcquack.net/391/index.m3u8
-#EXTINF:-1 group-title="海外·国际体育" response-time="1250ms",Sport 1 Baltic (1080p)
-http://stream.mcquack.net/461/index.m3u8
-http://stream.mcquack.net/461/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport2(Ukraine)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport2(Ukraine).png" group-title="体育频道" response-time="1293ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport2(Ukraine)
-http://stream.mcquack.net/392/index.m3u8
-http://stream.mcquack.net/392/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport3" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport3.png" group-title="体育频道" response-time="1275ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport3
-http://stream.mcquack.net/393/index.m3u8
-http://stream.mcquack.net/393/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport4(576p)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport4(576p).png" group-title="体育频道" response-time="1335ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Sport4(576p)
-http://stream.mcquack.net/394/index.m3u8
-http://stream.mcquack.net/394/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Suspilne.Sport" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Suspilne.Sport.png" group-title="体育频道" response-time="1302ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Sports,Suspilne.Sport
-http://stream.mcquack.net/444/index.m3u8
-http://stream.mcquack.net/444/index.m3u8
+#EXTINF:-1 tvg-name="iHOT爱赛车" tvg-logo="https://live.fanmingming.cn/tv/iHOT爱赛车.png" group-title="体育频道" response-time="743ms",iHOT爱赛车
+http://171.213.171.190:8899/udp/239.94.1.144:5140
 #EXTINF:-1 tvg-name="talkSPORT" tvg-logo="https://live.fanmingming.cn/tv/talkSPORT.png" group-title="体育频道" response-time="1491ms",talkSPORT
 https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
 https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
@@ -2041,6 +2198,10 @@ http://113.98.11.46:3000/968637775
 http://113.98.11.46:3000/968664743
 #EXTINF:-1 tvg-name="咪咕体育日报undefined咪咕体育日报第220期08:00" tvg-logo="https://live.fanmingming.cn/tv/咪咕体育日报undefined咪咕体育日报第220期08:00.png" group-title="体育频道" response-time="1559ms",咪咕体育日报undefined咪咕体育日报第220期08:00
 http://113.98.11.46:3000/968047914
+#EXTINF:-1 tvg-name="四海钓鱼" tvg-logo="https://live.fanmingming.cn/tv/四海钓鱼.png" group-title="体育频道" response-time="588ms",四海钓鱼
+http://171.213.171.190:8899/udp/239.94.1.168:5140
+#EXTINF:-1 tvg-name="天元围棋" tvg-logo="https://live.fanmingming.cn/tv/天元围棋.png" group-title="体育频道" response-time="855ms",天元围棋
+http://171.213.171.190:8899/udp/239.94.1.152:5140
 #EXTINF:-1 tvg-name="德甲RB莱比锡VS埃尔沃斯贝格刘洋21:15" tvg-logo="https://live.fanmingming.cn/tv/德甲RB莱比锡VS埃尔沃斯贝格刘洋21:15.png" group-title="体育频道" response-time="266ms",德甲RB莱比锡VS埃尔沃斯贝格刘洋21:15
 http://113.98.11.46:3000/968629406
 http://113.98.11.46:3000/968656065
@@ -2077,6 +2238,9 @@ http://113.98.11.46:3000/968629513
 #EXTINF:-1 tvg-name="徽BA滁州VS宣城赛场原声18:40" tvg-logo="https://live.fanmingming.cn/tv/徽BA滁州VS宣城赛场原声18:40.png" group-title="体育频道" response-time="870ms",徽BA滁州VS宣城赛场原声18:40
 http://103.236.77.86:29824/968536656
 http://113.98.11.46:3000/968536656
+#EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://live.fanmingming.cn/tv/快乐垂钓.png" group-title="体育频道" response-time="976ms",快乐垂钓
+http://36.22.80.199:4022/udp/233.50.200.123:5140
+http://36.22.80.199:4022/udp/233.50.201.109:5140
 #EXTINF:-1 tvg-name="意甲卡利亚里VS博洛尼亚刘焕20:45" tvg-logo="https://live.fanmingming.cn/tv/意甲卡利亚里VS博洛尼亚刘焕20:45.png" group-title="体育频道" response-time="844ms",意甲卡利亚里VS博洛尼亚刘焕20:45
 http://113.98.11.46:3000/968625636
 #EXTINF:-1 tvg-name="意甲卡利亚里VS博洛尼亚赛场原声20:45" tvg-logo="https://live.fanmingming.cn/tv/意甲卡利亚里VS博洛尼亚赛场原声20:45.png" group-title="体育频道" response-time="3318ms",意甲卡利亚里VS博洛尼亚赛场原声20:45
@@ -2131,6 +2295,15 @@ http://113.98.11.46:3000/968621711
 http://103.236.77.86:29824/968621711
 #EXTINF:-1 tvg-name="斯诺克高阳34吉尔伯特布雷切尔24遭淘汰【回放】高阳34大卫·吉尔伯特（赛场原声）02:00" tvg-logo="https://live.fanmingming.cn/tv/斯诺克高阳34吉尔伯特布雷切尔24遭淘汰【回放】高阳34大卫·吉尔伯特（赛场原声）02:00.png" group-title="体育频道" response-time="4380ms",斯诺克高阳34吉尔伯特布雷切尔24遭淘汰【回放】高阳34大卫·吉尔伯特（赛场原声）02:00
 http://113.98.11.46:3000/968621831
+#EXTINF:-1 tvg-name="晴彩竞技" tvg-logo="https://live.fanmingming.cn/tv/晴彩竞技.png" group-title="体育频道" response-time="1164ms",晴彩竞技
+http://36.22.80.199:4022/udp/233.50.202.26:5140
+http://36.22.80.199:4022/udp/233.50.201.193:5140
+#EXTINF:-1 tvg-name="晴彩篮球" tvg-logo="https://live.fanmingming.cn/tv/晴彩篮球.png" group-title="体育频道" response-time="1093ms",晴彩篮球
+http://36.22.80.199:4022/udp/233.50.201.194:5140
+http://36.22.80.199:4022/udp/233.50.202.27:5140
+#EXTINF:-1 tvg-name="晴彩羽毛球" tvg-logo="https://live.fanmingming.cn/tv/晴彩羽毛球.png" group-title="体育频道" response-time="1123ms",晴彩羽毛球
+http://36.22.80.199:4022/udp/233.50.202.28:5140
+http://36.22.80.199:4022/udp/233.50.201.195:5140
 #EXTINF:-1 tvg-name="楚超武汉华工科技队VS荆州恒隆队全场回放19:00" tvg-logo="https://live.fanmingming.cn/tv/楚超武汉华工科技队VS荆州恒隆队全场回放19:00.png" group-title="体育频道" response-time="1181ms",楚超武汉华工科技队VS荆州恒隆队全场回放19:00
 http://113.98.11.46:3000/968670371
 #EXTINF:-1 tvg-name="楚超黄石美尔雅队VS宜昌东阳光队赛场原声15:00" tvg-logo="https://live.fanmingming.cn/tv/楚超黄石美尔雅队VS宜昌东阳光队赛场原声15:00.png" group-title="体育频道" response-time="3904ms",楚超黄石美尔雅队VS宜昌东阳光队赛场原声15:00
@@ -2153,6 +2326,9 @@ http://113.98.11.46:3000/968537290
 http://113.98.11.46:3000/968646703
 #EXTINF:-1 tvg-name="浙BA金华VS宁海赛场原声19:30" tvg-logo="https://live.fanmingming.cn/tv/浙BA金华VS宁海赛场原声19:30.png" group-title="体育频道" response-time="2701ms",浙BA金华VS宁海赛场原声19:30
 http://103.236.77.86:29824/968537231
+#EXTINF:-1 tvg-name="游戏风云" tvg-logo="https://live.fanmingming.cn/tv/游戏风云.png" group-title="体育频道" response-time="965ms",游戏风云
+http://36.22.80.199:4022/udp/233.50.200.14:5140
+http://36.22.80.199:4022/udp/233.50.201.183:5140
 #EXTINF:-1 tvg-name="湘超株洲队VS湘潭队赛场原声15:00" tvg-logo="https://live.fanmingming.cn/tv/湘超株洲队VS湘潭队赛场原声15:00.png" group-title="体育频道" response-time="734ms",湘超株洲队VS湘潭队赛场原声15:00
 http://103.236.77.86:29824/968538568
 #EXTINF:-1 tvg-name="湘超永州队VS怀化队赛场原声15:00" tvg-logo="https://live.fanmingming.cn/tv/湘超永州队VS怀化队赛场原声15:00.png" group-title="体育频道" response-time="698ms",湘超永州队VS怀化队赛场原声15:00
@@ -2168,6 +2344,8 @@ http://113.98.11.46:3000/968538396
 http://113.98.11.46:3000/968538417
 #EXTINF:-1 tvg-name="琼超屯昌VS海口赛场原声19:35" tvg-logo="https://live.fanmingming.cn/tv/琼超屯昌VS海口赛场原声19:35.png" group-title="体育频道" response-time="606ms",琼超屯昌VS海口赛场原声19:35
 http://103.236.77.86:29824/968443450
+#EXTINF:-1 tvg-name="电竞天堂" tvg-logo="https://live.fanmingming.cn/tv/电竞天堂.png" group-title="体育频道" response-time="3063ms",电竞天堂
+http://171.213.171.190:8899/udp/239.94.1.45:5140
 #EXTINF:-1 tvg-name="皇马RMTV" tvg-logo="https://live.fanmingming.cn/tv/皇马RMTV.png" group-title="体育频道" response-time="1217ms",皇马RMTV
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8
 #EXTINF:-1 tvg-name="睛彩篮球「移动」" tvg-logo="https://live.fanmingming.cn/tv/睛彩篮球「移动」.png" group-title="体育频道" response-time="1084ms",睛彩篮球「移动」
@@ -2286,6 +2464,8 @@ http://113.98.11.46:3000/968667016
 http://113.98.11.46:3000/968670935
 #EXTINF:-1 tvg-name="超三联赛超三联赛总决赛开赛仪式及小组赛Day1晚间场全场回放（赛场原声）18:25" tvg-logo="https://live.fanmingming.cn/tv/超三联赛超三联赛总决赛开赛仪式及小组赛Day1晚间场全场回放（赛场原声）18:25.png" group-title="体育频道" response-time="930ms",超三联赛超三联赛总决赛开赛仪式及小组赛Day1晚间场全场回放（赛场原声）18:25
 http://113.98.11.46:3000/968670512
+#EXTINF:-1 tvg-name="足球专区" tvg-logo="https://live.fanmingming.cn/tv/足球专区.png" group-title="体育频道" response-time="1994ms",足球专区
+http://171.213.171.190:8899/udp/239.94.1.47:5140
 #EXTINF:-1 tvg-name="辽超朝阳队VS沈阳队赛场原声14:00" tvg-logo="https://live.fanmingming.cn/tv/辽超朝阳队VS沈阳队赛场原声14:00.png" group-title="体育频道" response-time="2655ms",辽超朝阳队VS沈阳队赛场原声14:00
 http://113.98.11.46:3000/968326121
 #EXTINF:-1 tvg-name="逐马计划超越巅峰——张德顺对谈李美珍超越巅峰——张德顺对谈李美珍10:30" tvg-logo="https://live.fanmingming.cn/tv/逐马计划超越巅峰——张德顺对谈李美珍超越巅峰——张德顺对谈李美珍10:30.png" group-title="体育频道" response-time="836ms",逐马计划超越巅峰——张德顺对谈李美珍超越巅峰——张德顺对谈李美珍10:30
@@ -2338,6 +2518,9 @@ https://d1yl6bf4hrzbr0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 group-title="海外·国际电影" response-time="1272ms",Amedia Hit (1080p)
 http://stream.mcquack.net/162/index.m3u8
 http://stream.mcquack.net/162/index.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1227ms",Armenia Premium (720p)
+http://stream.mcquack.net/123/index.m3u8
+http://stream.mcquack.net/123/index.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1247ms",Asianet Movies (396p)
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies.smil/chunklist_b1928000.m3u8
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:asianetmovies.smil/chunklist_b1928000.m3u8
@@ -2365,6 +2548,9 @@ http://176.118.197.101/Bollywood_HD/index.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1444ms",Bollywood HD Russia (576p)
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies;Series,Bolt(Ukraine)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies;Series,Bolt(Ukraine).png" group-title="影视剧场" response-time="1318ms",likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies;Series,Bolt(Ukraine)
+http://stream.mcquack.net/73/index.m3u8
+http://stream.mcquack.net/73/index.m3u8
 #EXTINF:-1 tvg-name="Boreal" tvg-logo="https://live.fanmingming.cn/tv/Boreal.png" group-title="影视剧场" response-time="1221ms",Boreal
 https://edge.essastream.com/borealtelevision/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="2580ms",Bravo Farsi TV (360p)
@@ -2411,6 +2597,9 @@ https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/
 #EXTINF:-1 group-title="海外·国际电影" response-time="1746ms",Cine Western (Spain) (1080p)
 https://d2nq34q0i1r3la.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-awohw8g217ho8/CineWestern_ES.m3u8
 https://d2nq34q0i1r3la.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-awohw8g217ho8/CineWestern_ES.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,Cinema(Mongolia)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,Cinema(Mongolia).png" group-title="影视剧场" response-time="1728ms",likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,Cinema(Mongolia)
+https://cdn4.skygo.mn/live/disk1/CinemaTV/DASH-FTA/CinemaTV.mpd
+https://cdn4.skygo.mn/live/disk1/CinemaTV/DASH-FTA/CinemaTV.mpd
 #EXTINF:-1 group-title="海外·国际电影" response-time="1959ms",Cinemaraton Plus (1080i)
 https://hls02ns.antenaplay.ro/hls/cinemaraton-plus-hd/index.m3u8
 https://hls02ns.antenaplay.ro/hls/cinemaraton-plus-hd/index.m3u8
@@ -2451,6 +2640,9 @@ http://stream.mcquack.net/108/index.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1833ms",Dorama (576p)
 https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv
 https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv
+#EXTINF:-1 group-title="海外·国际电影" response-time="1244ms",Dorama HD (1080p)
+http://stream.mcquack.net/412/index.m3u8
+http://stream.mcquack.net/412/index.m3u8
 #EXTINF:-1 tvg-name="EBSCinema" tvg-logo="https://live.fanmingming.cn/tv/EBSCinema.png" group-title="影视剧场" response-time="1724ms",EBSCinema
 https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8
 https://rpn.bozztv.com/ebstv/ebscinema/index.m3u8
@@ -2463,6 +2655,8 @@ https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playl
 #EXTINF:-1 group-title="海外·国际电影" response-time="1318ms",Emotion L (1080p)
 https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8
 https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,EnterFilm" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,EnterFilm.png" group-title="影视剧场" response-time="1244ms",likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,EnterFilm
+http://stream.mcquack.net/322/index.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="2424ms",Epic Bhojpuri (576p)
 https://mumt01.tangotv.in/O5aw8Zn3EPICBHOJPURI/index.m3u8
 https://mumt01.tangotv.in/O5aw8Zn3EPICBHOJPURI/index.m3u8
@@ -2475,18 +2669,30 @@ http://stream.mcquack.net/385/index.m3u8
 #EXTINF:-1 tvg-name="FILMBOX+ComedyRomania" tvg-logo="https://live.fanmingming.cn/tv/FILMBOX+ComedyRomania.png" group-title="影视剧场" response-time="1612ms",FILMBOX+ComedyRomania
 https://nosignal1.antenaplay.ro/hls/fb-comedy-hd/index.m3u8
 https://nosignal1.antenaplay.ro/hls/fb-comedy-hd/index.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1794ms",FILMBOX+ Emotion Adria
+https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8
+https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8
 #EXTINF:-1 tvg-name="FILMBOX+Festival" tvg-logo="https://live.fanmingming.cn/tv/FILMBOX+Festival.png" group-title="影视剧场" response-time="1799ms",FILMBOX+Festival
 https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8
 https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1671ms",FILMBOX+ Festival HD (1080p)
 https://nosignal1.antenaplay.ro/hls/fb-festival-hd/index.m3u8
 https://nosignal1.antenaplay.ro/hls/fb-festival-hd/index.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Movies,FILMBOX+HitsAdria" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Movies,FILMBOX+HitsAdria.png" group-title="影视剧场" response-time="2561ms",likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Movies,FILMBOX+HitsAdria
+https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8
+https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8
 #EXTINF:-1 tvg-name="FILMBOX+HitsRomania(576p)" tvg-logo="https://live.fanmingming.cn/tv/FILMBOX+HitsRomania(576p).png" group-title="影视剧场" response-time="1572ms",FILMBOX+HitsRomania(576p)
 https://nosignal1.antenaplay.ro/hls/fb-hits-sd/index.m3u8
 https://nosignal1.antenaplay.ro/hls/fb-hits-sd/index.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1659ms",FILMBOX+ Love & Crime Adria
+https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8
+https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1617ms",FILMBOX+ Love & Crime Romania
 https://nosignal1.antenaplay.ro/hls/fb-love-and-crime-sd/index.m3u8
 https://nosignal1.antenaplay.ro/hls/fb-love-and-crime-sd/index.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1639ms",FILMBOX+ One Romania (576p)
+https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8
+https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8
 #EXTINF:-1 tvg-name="FilmRiseForensicFiles" tvg-logo="https://live.fanmingming.cn/tv/FilmRiseForensicFiles.png" group-title="影视剧场" response-time="2357ms",FilmRiseForensicFiles
 https://pb-x9qsxrudiq9d2.akamaized.net/webvtt/v1/18584c3f3a2a4df8/88886014/master.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="2443ms",FilmUA Live
@@ -2562,12 +2768,21 @@ https://streams.tangotv.in/WETV/ORIGIN/index.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
 #EXTINF:-1 tvg-name="Kino1(Russia)" tvg-logo="https://live.fanmingming.cn/tv/Kino1(Russia).png" group-title="影视剧场" response-time="1318ms",Kino1(Russia)
 http://kino-1.catcast.tv/content/38617/index.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1258ms",Kino 1 (Ukraine) (1080p)
+http://stream.mcquack.net/395/index.m3u8
+http://stream.mcquack.net/395/index.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,Kino2" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,Kino2.png" group-title="影视剧场" response-time="1256ms",likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,Kino2
+http://stream.mcquack.net/465/index.m3u8
+http://stream.mcquack.net/465/index.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1218ms",KinoHit (576p)
 http://stream.mcquack.net/126/index.m3u8
 http://stream.mcquack.net/126/index.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1330ms",Kino TV HD (1080p)
 http://176.118.197.101/KinoTvHD/playlist.m3u8
 http://176.118.197.101/KinoTvHD/playlist.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1214ms",Kinoliving (1080p)
+http://stream.mcquack.net/445/index.m3u8
+http://stream.mcquack.net/445/index.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1237ms",Kinomix (576p)
 http://93.170.254.17/Kinomiks/index.m3u8
 http://93.170.254.17/Kinomiks/index.m3u8
@@ -2583,6 +2798,9 @@ https://stream8.cinerama.uz/1009/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-name="Kinouzhas(576p)" tvg-logo="https://live.fanmingming.cn/tv/Kinouzhas(576p).png" group-title="影视剧场" response-time="1332ms",Kinouzhas(576p)
 http://stream.mcquack.net/278/index.m3u8
 http://stream.mcquack.net/278/index.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1256ms",Kinowood (1080p)
+http://stream.mcquack.net/446/index.m3u8
+http://stream.mcquack.net/446/index.m3u8
 #EXTINF:-1 tvg-name="KuriakosCine" tvg-logo="https://live.fanmingming.cn/tv/KuriakosCine.png" group-title="影视剧场" response-time="2603ms",KuriakosCine
 https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
 https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
@@ -2603,6 +2821,9 @@ https://video.ejeserver.com/live/mcitelevision.m3u8
 #EXTINF:-1 tvg-name="MHOneMovies(576p)" tvg-logo="https://live.fanmingming.cn/tv/MHOneMovies(576p).png" group-title="影视剧场" response-time="2368ms",MHOneMovies(576p)
 https://mumt03.tangotv.in/Dsly5z3HMHONEMOVIE/index.m3u8
 https://mumt03.tangotv.in/Dsly5z3HMHONEMOVIE/index.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1715ms",MN+
+https://cdn4.skygo.mn/live/disk1/MNplus91/HLSv3-FTA/MNplus91.m3u8
+https://cdn4.skygo.mn/live/disk1/MNplus91/HLSv3-FTA/MNplus91.m3u8
 #EXTINF:-1 tvg-name="MWDMovies" tvg-logo="https://live.fanmingming.cn/tv/MWDMovies.png" group-title="影视剧场" response-time="1358ms",MWDMovies
 http://203.81.84.130/hls/mwd_movie/index.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1670ms",Maah TV (720p)
@@ -2653,6 +2874,9 @@ https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 #EXTINF:-1 tvg-name="MovieBangla" tvg-logo="https://live.fanmingming.cn/tv/MovieBangla.png" group-title="影视剧场" response-time="1318ms",MovieBangla
 http://alvetv.com/moviebanglatv/8080/index.m3u8
 http://alvetv.com/moviebanglatv/8080/index.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1757ms",MovieBox (1080p)
+https://cdn4.skygo.mn/live/disk1/Moviebox/DASH-FTA/Moviebox.mpd
+https://cdn4.skygo.mn/live/disk1/Moviebox/DASH-FTA/Moviebox.mpd
 #EXTINF:-1 tvg-name="MoviePunjab" tvg-logo="https://live.fanmingming.cn/tv/MoviePunjab.png" group-title="影视剧场" response-time="2220ms",MoviePunjab
 https://samitaorigin.tangotv.in/MOVIEPUNJAB/SAMITAORIGIN/index.m3u8
 https://samitaorigin.tangotv.in/MOVIEPUNJAB/SAMITAORIGIN/index.m3u8
@@ -2665,6 +2889,9 @@ https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlis
 #EXTINF:-1 tvg-name="MovieSphereUK" tvg-logo="https://live.fanmingming.cn/tv/MovieSphereUK.png" group-title="影视剧场" response-time="1126ms",MovieSphereUK
 https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
 https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="2465ms",Movie Star (720p)
+https://shift03.isp.bg/MovieStar/index.m3u8
+https://shift03.isp.bg/MovieStar/index.m3u8
 #EXTINF:-1 tvg-name="Movies!KPVMLD" tvg-logo="https://live.fanmingming.cn/tv/Movies!KPVMLD.png" group-title="影视剧场" response-time="1348ms",Movies!KPVMLD
 https://2-fss-2.streamhoster.com/pl_120/206858-4412962-1/playlist.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1412ms",Movies Action (1080p)
@@ -2706,6 +2933,9 @@ https://a-cdn.klowdtv.com/live2/nost_720p/playlist.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1221ms",Nashe HD (576p)
 http://stream.mcquack.net/217/index.m3u8
 http://stream.mcquack.net/217/index.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1268ms",Nashe Lubimoe Kino Ukraine (1080p)
+http://stream.mcquack.net/456/index.m3u8
+http://stream.mcquack.net/456/index.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1857ms",Nashe Novoe Kino
 https://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8
 https://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8
@@ -2930,6 +3160,9 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13
 #EXTINF:-1 group-title="海外·国际电影" response-time="1315ms",Viasat Kino Balkan (1080p)
 http://176.61.157.250/TV1000/index.m3u8
 http://176.61.157.250/TV1000/index.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,WarnerTVAsia" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,WarnerTVAsia.png" group-title="影视剧场" response-time="1766ms",likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,WarnerTVAsia
+https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8
+https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8
 #EXTINF:-1 tvg-name="WatchitScream!" tvg-logo="https://live.fanmingming.cn/tv/WatchitScream!.png" group-title="影视剧场" response-time="1425ms",WatchitScream!
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2246
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2246
@@ -2948,6 +3181,9 @@ https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="1536ms",Xtrema Terror
 https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8
 https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8
+#EXTINF:-1 group-title="海外·国际电影" response-time="1294ms",Yes Movies Action (1080p)
+http://stream.mcquack.net/380/index.m3u8
+http://stream.mcquack.net/380/index.m3u8
 #EXTINF:-1 group-title="海外·国际电影" response-time="2304ms",ZB Cinema (1080p)
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 https://server.zillarbarta.com/ZBCINEMA/index.m3u8
@@ -2957,62 +3193,18 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 #EXTINF:-1 tvg-name="ZeeCinemaAPAC" tvg-logo="https://live.fanmingming.cn/tv/ZeeCinemaAPAC.png" group-title="影视剧场" response-time="1635ms",ZeeCinemaAPAC
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/sg/YuppTV/ZeeCinemaAPAC.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,EnterFilm" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,EnterFilm.png" group-title="影视剧场" response-time="1244ms",likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,EnterFilm
-http://stream.mcquack.net/322/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,Kino2" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,Kino2.png" group-title="影视剧场" response-time="1256ms",likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies,Kino2
-http://stream.mcquack.net/465/index.m3u8
-http://stream.mcquack.net/465/index.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1268ms",Nashe Lubimoe Kino Ukraine (1080p)
-http://stream.mcquack.net/456/index.m3u8
-http://stream.mcquack.net/456/index.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1294ms",Yes Movies Action (1080p)
-http://stream.mcquack.net/380/index.m3u8
-http://stream.mcquack.net/380/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies;Series,Bolt(Ukraine)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies;Series,Bolt(Ukraine).png" group-title="影视剧场" response-time="1318ms",likeGecko)Chrome/130.0.0.0Safari/537.36grouptitle=Movies;Series,Bolt(Ukraine)
-http://stream.mcquack.net/73/index.m3u8
-http://stream.mcquack.net/73/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,Cinema(Mongolia)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,Cinema(Mongolia).png" group-title="影视剧场" response-time="1728ms",likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,Cinema(Mongolia)
-https://cdn4.skygo.mn/live/disk1/CinemaTV/DASH-FTA/CinemaTV.mpd
-https://cdn4.skygo.mn/live/disk1/CinemaTV/DASH-FTA/CinemaTV.mpd
-#EXTINF:-1 group-title="海外·国际电影" response-time="1757ms",MovieBox (1080p)
-https://cdn4.skygo.mn/live/disk1/Moviebox/DASH-FTA/Moviebox.mpd
-https://cdn4.skygo.mn/live/disk1/Moviebox/DASH-FTA/Moviebox.mpd
-#EXTINF:-1 tvg-name="likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,WarnerTVAsia" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,WarnerTVAsia.png" group-title="影视剧场" response-time="1766ms",likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Movies,WarnerTVAsia
-https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8
-https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1715ms",MN+
-https://cdn4.skygo.mn/live/disk1/MNplus91/HLSv3-FTA/MNplus91.m3u8
-https://cdn4.skygo.mn/live/disk1/MNplus91/HLSv3-FTA/MNplus91.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1794ms",FILMBOX+ Emotion Adria
-https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8
-https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Movies,FILMBOX+HitsAdria" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Movies,FILMBOX+HitsAdria.png" group-title="影视剧场" response-time="2561ms",likeGecko)Chrome/149.0.0.0Safari/537.3grouptitle=Movies,FILMBOX+HitsAdria
-https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8
-https://webtvstream.bhtelecom.ba/filmbox_premium.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1659ms",FILMBOX+ Love & Crime Adria
-https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8
-https://webtvstream.bhtelecom.ba/filmbox_stars.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1227ms",Armenia Premium (720p)
-http://stream.mcquack.net/123/index.m3u8
-http://stream.mcquack.net/123/index.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1244ms",Dorama HD (1080p)
-http://stream.mcquack.net/412/index.m3u8
-http://stream.mcquack.net/412/index.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1258ms",Kino 1 (Ukraine) (1080p)
-http://stream.mcquack.net/395/index.m3u8
-http://stream.mcquack.net/395/index.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1214ms",Kinoliving (1080p)
-http://stream.mcquack.net/445/index.m3u8
-http://stream.mcquack.net/445/index.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1256ms",Kinowood (1080p)
-http://stream.mcquack.net/446/index.m3u8
-http://stream.mcquack.net/446/index.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="2465ms",Movie Star (720p)
-https://shift03.isp.bg/MovieStar/index.m3u8
-https://shift03.isp.bg/MovieStar/index.m3u8
-#EXTINF:-1 group-title="海外·国际电影" response-time="1639ms",FILMBOX+ One Romania (576p)
-https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8
-https://nosignal1.antenaplay.ro/hls/fb-one-sd/index.m3u8
+#EXTINF:-1 tvg-name="iHOT爱" tvg-logo="https://live.fanmingming.cn/tv/iHOT爱.png" group-title="影视剧场" response-time="517ms",iHOT爱
+http://171.213.171.190:8899/udp/239.94.1.143:5140
+#EXTINF:-1 tvg-name="iHOT爱动漫" tvg-logo="https://live.fanmingming.cn/tv/iHOT爱动漫.png" group-title="影视剧场" response-time="765ms",iHOT爱动漫
+http://171.213.171.190:8899/udp/239.94.1.141:5140
+#EXTINF:-1 tvg-name="iHOT爱浪漫" tvg-logo="https://live.fanmingming.cn/tv/iHOT爱浪漫.png" group-title="影视剧场" response-time="636ms",iHOT爱浪漫
+http://171.213.171.190:8899/udp/239.94.1.128:5140
+#EXTINF:-1 tvg-name="iHOT爱科幻" tvg-logo="https://live.fanmingming.cn/tv/iHOT爱科幻.png" group-title="影视剧场" response-time="716ms",iHOT爱科幻
+http://171.213.171.190:8899/udp/239.94.1.131:5140
+#EXTINF:-1 tvg-name="iHOT爱谍战" tvg-logo="https://live.fanmingming.cn/tv/iHOT爱谍战.png" group-title="影视剧场" response-time="775ms",iHOT爱谍战
+http://171.213.171.190:8899/udp/239.94.1.134:5140
+#EXTINF:-1 tvg-name="iHOT爱院线" tvg-logo="https://live.fanmingming.cn/tv/iHOT爱院线.png" group-title="影视剧场" response-time="642ms",iHOT爱院线
+http://171.213.171.190:8899/udp/239.94.1.132:5140
 #EXTINF:-1 tvg-name="viju+MegahitHD" tvg-logo="https://live.fanmingming.cn/tv/viju+MegahitHD.png" group-title="影视剧场" response-time="1395ms",viju+MegahitHD
 http://stream.mcquack.net/200/index.m3u8
 http://stream.mcquack.net/200/index.m3u8
@@ -3025,6 +3217,9 @@ http://stream.mcquack.net/110/index.m3u8
 #EXTINF:-1 tvg-name="vijuTV1000action(576p)" tvg-logo="https://live.fanmingming.cn/tv/vijuTV1000action(576p).png" group-title="影视剧场" response-time="1336ms",vijuTV1000action(576p)
 http://stream.mcquack.net/100/index.m3u8
 http://stream.mcquack.net/100/index.m3u8
+#EXTINF:-1 tvg-name="乐游纪实" tvg-logo="https://live.fanmingming.cn/tv/乐游纪实.png" group-title="影视剧场" response-time="1032ms",乐游纪实
+http://36.22.80.199:4022/udp/233.50.201.185:5140
+http://36.22.80.199:4022/udp/233.50.200.148:5140
 #EXTINF:-1 tvg-name="五分钟电影汇" tvg-logo="https://live.fanmingming.cn/tv/五分钟电影汇.png" group-title="影视剧场" response-time="2318ms",五分钟电影汇
 https://www.goodiptv.club/douyu/8443438
 #EXTINF:-1 tvg-name="倩女幽魂人间道" tvg-logo="https://live.fanmingming.cn/tv/倩女幽魂人间道.png" group-title="影视剧场" response-time="294ms",倩女幽魂人间道
@@ -3033,12 +3228,41 @@ http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
 http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
 #EXTINF:-1 tvg-name="倩女幽魂道道道" tvg-logo="https://live.fanmingming.cn/tv/倩女幽魂道道道.png" group-title="影视剧场" response-time="176ms",倩女幽魂道道道
 http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
+#EXTINF:-1 tvg-name="全球大片" tvg-logo="https://live.fanmingming.cn/tv/全球大片.png" group-title="影视剧场" response-time="5740ms",全球大片
+http://171.213.171.190:8899/udp/239.94.1.24:5140
+#EXTINF:-1 tvg-name="北京纪实" tvg-logo="https://live.fanmingming.cn/tv/北京纪实.png" group-title="影视剧场" response-time="696ms",北京纪实
+http://171.213.171.190:8899/udp/239.94.0.109:5140
 #EXTINF:-1 tvg-name="南宁影视娱乐" tvg-logo="https://live.fanmingming.cn/tv/南宁影视娱乐.png" group-title="影视剧场" response-time="123ms",南宁影视娱乐
 http://hls.nntv.cn/nnlive/YSYL_244.m3u8
 #EXTINF:-1 tvg-name="句容影院频道" tvg-logo="https://live.fanmingming.cn/tv/句容影院频道.png" group-title="影视剧场" response-time="333ms",句容影院频道
 http://jrlive.jrntv.com/live/_definst_/yingshis/playlist.m3u8?zjiangsd
+#EXTINF:-1 tvg-name="四川影视文艺" tvg-logo="https://live.fanmingming.cn/tv/四川影视文艺.png" group-title="影视剧场" response-time="513ms",四川影视文艺
+http://171.213.171.190:8899/udp/239.94.0.73:5140
+#EXTINF:-1 tvg-name="宁波影视" tvg-logo="https://live.fanmingming.cn/tv/宁波影视.png" group-title="影视剧场" response-time="696ms",宁波影视
+http://36.22.80.199:4022/udp/233.50.201.180:5140
+#EXTINF:-1 tvg-name="成都影视" tvg-logo="https://live.fanmingming.cn/tv/成都影视.png" group-title="影视剧场" response-time="1300ms",成都影视
+http://171.213.171.190:8899/udp/239.94.0.157:5140
+#EXTINF:-1 tvg-name="星光院线" tvg-logo="https://live.fanmingming.cn/tv/星光院线.png" group-title="影视剧场" response-time="1017ms",星光院线
+http://171.213.171.190:8899/udp/239.94.1.23:5140
+#EXTINF:-1 tvg-name="杭州影视" tvg-logo="https://live.fanmingming.cn/tv/杭州影视.png" group-title="影视剧场" response-time="773ms",杭州影视
+http://36.22.80.199:4022/udp/233.50.201.176:5140
+#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://live.fanmingming.cn/tv/欢笑剧场.png" group-title="影视剧场" response-time="1157ms",欢笑剧场
+http://36.22.80.199:4022/udp/233.50.200.229:5140
+http://36.22.80.199:4022/udp/233.50.201.189:5140
+#EXTINF:-1 tvg-name="浙江纪录" tvg-logo="https://live.fanmingming.cn/tv/浙江纪录.png" group-title="影视剧场" response-time="584ms",浙江纪录
+http://36.22.80.199:4022/udp/233.50.202.25:5140
+#EXTINF:-1 tvg-name="热播剧场" tvg-logo="https://live.fanmingming.cn/tv/热播剧场.png" group-title="影视剧场" response-time="1011ms",热播剧场
+http://171.213.171.190:8899/udp/239.94.1.25:5140
+#EXTINF:-1 tvg-name="热门剧场" tvg-logo="https://live.fanmingming.cn/tv/热门剧场.png" group-title="影视剧场" response-time="2200ms",热门剧场
+http://171.213.171.190:8899/udp/239.94.1.26:5140
 #EXTINF:-1 tvg-name="绍兴文化影院" tvg-logo="https://live.fanmingming.cn/tv/绍兴文化影院.png" group-title="影视剧场" response-time="296ms",绍兴文化影院
 http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8?zzhed
+#EXTINF:-1 tvg-name="经典剧场" tvg-logo="https://live.fanmingming.cn/tv/经典剧场.png" group-title="影视剧场" response-time="458ms",经典剧场
+http://171.213.171.190:8899/udp/239.94.1.49:5140
+#EXTINF:-1 tvg-name="谍战剧场" tvg-logo="https://live.fanmingming.cn/tv/谍战剧场.png" group-title="影视剧场" response-time="689ms",谍战剧场
+http://171.213.171.190:8899/udp/239.94.1.28:5140
+#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://live.fanmingming.cn/tv/金鹰纪实.png" group-title="影视剧场" response-time="3200ms",金鹰纪实
+http://171.213.171.190:8899/udp/239.94.2.223:5140
 #EXTINF:-1 tvg-name="韩国电影1" tvg-logo="https://live.fanmingming.cn/tv/韩国电影1.png" group-title="影视剧场" response-time="2077ms",韩国电影1
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
 #EXTINF:-1 tvg-name="韩国电影2" tvg-logo="https://live.fanmingming.cn/tv/韩国电影2.png" group-title="影视剧场" response-time="2136ms",韩国电影2
@@ -3047,13 +3271,23 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
 http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
 #EXTINF:-1 tvg-name="云朵妈妈" tvg-logo="https://live.fanmingming.cn/tv/云朵妈妈.png" group-title="少儿动漫" response-time="338ms",云朵妈妈
 https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/d8ad434c6b08421a927557a4d98da65c/1200.m3u8
+#EXTINF:-1 tvg-name="优优宝贝" tvg-logo="https://live.fanmingming.cn/tv/优优宝贝.png" group-title="少儿动漫" response-time="1303ms",优优宝贝
+http://36.22.80.199:4022/udp/233.50.202.24:5140
 #EXTINF:-1 tvg-name="倒霉特熊" tvg-logo="https://live.fanmingming.cn/tv/倒霉特熊.png" group-title="少儿动漫" response-time="345ms",倒霉特熊
 https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/87f87ba569c147e3805f80e4844d2de9/1200.m3u8
+#EXTINF:-1 tvg-name="动漫秀场" tvg-logo="https://live.fanmingming.cn/tv/动漫秀场.png" group-title="少儿动漫" response-time="1164ms",动漫秀场
+http://36.22.80.199:4022/udp/233.50.200.12:5140
+http://171.213.171.190:8899/udp/239.94.1.171:5140
+#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://live.fanmingming.cn/tv/卡酷少儿.png" group-title="少儿动漫" response-time="643ms",卡酷少儿
+http://171.213.171.190:8899/udp/239.94.1.29:5140
+http://171.213.171.190:8899/udp/239.94.2.230:5140
 #EXTINF:-1 tvg-name="反转星球" tvg-logo="https://live.fanmingming.cn/tv/反转星球.png" group-title="少儿动漫" response-time="344ms",反转星球
 https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/3ccdecc7d6e341c1920ad4eac5d82f38/1200.m3u8
-#EXTINF:-1 tvg-name="嘉佳卡通" tvg-logo="https://live.fanmingming.cn/tv/嘉佳卡通.png" group-title="少儿动漫" response-time="1874ms",嘉佳卡通
-http://103.236.77.86:29824/614952364
-https://live.goodiptv.club/api/itouch.php?id=1187
+#EXTINF:-1 tvg-name="嘉佳卡通" tvg-logo="https://live.fanmingming.cn/tv/嘉佳卡通.png" group-title="少儿动漫" response-time="900ms",嘉佳卡通
+http://171.213.171.190:8899/udp/239.94.1.10:5140
+http://171.213.171.190:8899/udp/239.94.2.226:5140
+#EXTINF:-1 tvg-name="少儿动画" tvg-logo="https://live.fanmingming.cn/tv/少儿动画.png" group-title="少儿动漫" response-time="1535ms",少儿动画
+http://171.213.171.190:8899/udp/239.94.1.33:5140
 #EXTINF:-1 tvg-name="海绵宝宝" tvg-logo="https://live.fanmingming.cn/tv/海绵宝宝.png" group-title="少儿动漫" response-time="2884ms",海绵宝宝
 https://www.goodiptv.club/douyu/2250349
 #EXTINF:-1 tvg-name="深圳电视台少儿频道" tvg-logo="https://live.fanmingming.cn/tv/深圳电视台少儿频道.png" group-title="少儿动漫" response-time="1977ms",深圳电视台少儿频道
@@ -3323,6 +3557,9 @@ https://jmc-live.ercdn.net/amutv/amutv.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="2453ms",Ananda Barta (720p)
 https://account19.livebox.co.in/Anandabarta2hls/live.m3u8
 https://account19.livebox.co.in/Anandabarta2hls/live.m3u8
+#EXTINF:-1 group-title="海外·国际新闻" response-time="2539ms",Antena 3 CNN (1080p)
+https://live3vox.antenaplay.ro/a3free/a3free.m3u8
+https://live3vox.antenaplay.ro/a3free/a3free.m3u8
 #EXTINF:-1 tvg-name="AntikInfoTV" tvg-logo="https://live.fanmingming.cn/tv/AntikInfoTV.png" group-title="新闻财经" response-time="1863ms",AntikInfoTV
 https://dash4.antik.sk/live/test_infokanal_tizen/playlist.m3u8
 https://dash4.antik.sk/live/test_infokanal_tizen/playlist.m3u8
@@ -3496,6 +3733,9 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u
 #EXTINF:-1 group-title="海外·国际新闻" response-time="2266ms",CNA International (576p)
 https://mumt05.tangotv.in/87NeALx2CNA/index.m3u8
 https://mumt05.tangotv.in/87NeALx2CNA/index.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Business;News,CNBCMongolia" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Business;News,CNBCMongolia.png" group-title="新闻财经" response-time="2215ms",likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Business;News,CNBCMongolia
+https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
+https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
 #EXTINF:-1 tvg-name="CNBCUK" tvg-logo="https://live.fanmingming.cn/tv/CNBCUK.png" group-title="新闻财经" response-time="1422ms",CNBCUK
 https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
 https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
@@ -3562,6 +3802,9 @@ https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="1608ms",Catamarca TV (720p)
 https://stream.arcast.com.ar/canal7catamarca/ngrp:canal7catamarca_all/playlist.m3u8?DVR=
 https://stream.arcast.com.ar/canal7catamarca/ngrp:canal7catamarca_all/playlist.m3u8?DVR=
+#EXTINF:-1 group-title="海外·国际新闻" response-time="1222ms",Channel 5 (Ukraine) (1080p)
+http://stream.mcquack.net/291/index.m3u8
+http://stream.mcquack.net/291/index.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="1298ms",Channel8 (720p)
 https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
 https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
@@ -3655,9 +3898,15 @@ https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="1342ms",EAC News TV
 https://live.eac-news.com/LiveApp/streams/eacnews.m3u8
 https://live.eac-news.com/LiveApp/streams/eacnews.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=News,ETV(Mongolia)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=News,ETV(Mongolia).png" group-title="新闻财经" response-time="1963ms",likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=News,ETV(Mongolia)
+https://cdn4.skygo.mn/live/disk1/ETV/DASH-FTA/ETV.mpd
+https://cdn4.skygo.mn/live/disk1/ETV/DASH-FTA/ETV.mpd
 #EXTINF:-1 tvg-name="ETVNews" tvg-logo="https://live.fanmingming.cn/tv/ETVNews.png" group-title="新闻财经" response-time="1557ms",ETVNews
 https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8
 https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8
+#EXTINF:-1 group-title="海外·国际新闻" response-time="1899ms",Eagle News (1080p)
+https://cdn4.skygo.mn/live/disk1/Eagle/DASH-FTA/Eagle.mpd
+https://cdn4.skygo.mn/live/disk1/Eagle/DASH-FTA/Eagle.mpd
 #EXTINF:-1 group-title="海外·国际新闻" response-time="2374ms",Ekamra Bharat Odia (400p)
 https://live.ekamraott.com/bharat/bharat/index.m3u8
 https://live.ekamraott.com/bharat/bharat/index.m3u8
@@ -3766,6 +4015,9 @@ https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-name="France24Spanish" tvg-logo="https://live.fanmingming.cn/tv/France24Spanish.png" group-title="新闻财经" response-time="1204ms",France24Spanish
 https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
 https://live.france24.com/hls/live/2037220-b/F24_ES_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/154.0.0.0Safari/537.36grouptitle=News,Franceinfo" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/154.0.0.0Safari/537.36grouptitle=News,Franceinfo.png" group-title="新闻财经" response-time="1146ms",likeGecko)Chrome/154.0.0.0Safari/537.36grouptitle=News,Franceinfo
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
 #EXTINF:-1 tvg-name="FreeSpeechTV" tvg-logo="https://live.fanmingming.cn/tv/FreeSpeechTV.png" group-title="新闻财经" response-time="1230ms",FreeSpeechTV
 https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41c4-be57-c4d1a2b83cad-hls4/live.m3u8
 https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41c4-be57-c4d1a2b83cad-hls4/live.m3u8
@@ -4051,6 +4303,9 @@ https://backupmaxmedia.hvmultiplay.com/hls/stream2/momento24.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="1837ms",Monaco Info (1080p)
 https://webtv.monacoinfo.com/live/prod/index.m3u8
 https://webtv.monacoinfo.com/live/prod/index.m3u8
+#EXTINF:-1 group-title="海外·国际新闻" response-time="1702ms",Mongolian News Channel (1080p)
+https://cdn4.skygo.mn/live/disk1/MNCTV/DASH-FTA/MNCTV.mpd
+https://cdn4.skygo.mn/live/disk1/MNCTV/DASH-FTA/MNCTV.mpd
 #EXTINF:-1 tvg-name="MoonTV(576p)" tvg-logo="https://live.fanmingming.cn/tv/MoonTV(576p).png" group-title="新闻财经" response-time="1407ms",MoonTV(576p)
 https://d1msejlow1t3l4.cloudfront.net/fta/moontv/playlist.m3u8
 https://d1msejlow1t3l4.cloudfront.net/fta/moontv/playlist.m3u8
@@ -4060,6 +4315,8 @@ https://videostream.shockmedia.com.ar/hls/multivisionfederal/multivisionfederal.
 #EXTINF:-1 tvg-name="MunsifTV(576p)" tvg-logo="https://live.fanmingming.cn/tv/MunsifTV(576p).png" group-title="新闻财经" response-time="2454ms",MunsifTV(576p)
 https://live1.ottlive.co.in/munsiftv/munsiftv/index.m3u8
 https://live1.ottlive.co.in/munsiftv/munsiftv/index.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=News,MyUkrainaTV" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=News,MyUkrainaTV.png" group-title="新闻财经" response-time="1257ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=News,MyUkrainaTV
+http://stream.mcquack.net/442/index.m3u8
 #EXTINF:-1 tvg-name="NBCNewsNOW" tvg-logo="https://live.fanmingming.cn/tv/NBCNewsNOW.png" group-title="新闻财经" response-time="1252ms",NBCNewsNOW
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
@@ -4152,6 +4409,9 @@ https://n18syndication.akamaized.net/bpk-tv/News18_JKLH_NW18_MOB/output01/master
 #EXTINF:-1 group-title="海外·国际新闻" response-time="1478ms",News18 Gujarati (1080p)
 https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8
 https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8
+#EXTINF:-1 group-title="海外·国际新闻" response-time="1907ms",News18 Kannada (1080p)
+https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
+https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 tvg-name="News18Kerala" tvg-logo="https://live.fanmingming.cn/tv/News18Kerala.png" group-title="新闻财经" response-time="2198ms",News18Kerala
 https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
 https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
@@ -4250,6 +4510,9 @@ https://live.nowtelly.com/now_spanish/live/playlist.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="1077ms",News of the World USA (1080p)
 https://live.nowtelly.com/now_usa/live_usa/playlist.m3u8
 https://live.nowtelly.com/now_usa/live_usa/playlist.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/142.0.0.0Safari/537.36Edg/142.0.0.0grouptitle=News,NortheastLive" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/142.0.0.0Safari/537.36Edg/142.0.0.0grouptitle=News,NortheastLive.png" group-title="新闻财经" response-time="2002ms",likeGecko)Chrome/142.0.0.0Safari/537.36Edg/142.0.0.0grouptitle=News,NortheastLive
+https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8
+https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8
 #EXTINF:-1 tvg-name="Noticias16" tvg-logo="https://live.fanmingming.cn/tv/Noticias16.png" group-title="新闻财经" response-time="2250ms",Noticias16
 https://edge.essastream.com/noticias16/playlist.m3u8
 #EXTINF:-1 tvg-name="O'zbekiston24" tvg-logo="https://live.fanmingming.cn/tv/O'zbekiston24.png" group-title="新闻财经" response-time="2445ms",O'zbekiston24
@@ -4271,6 +4534,9 @@ https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-name="OraNews" tvg-logo="https://live.fanmingming.cn/tv/OraNews.png" group-title="新闻财经" response-time="2163ms",OraNews
 https://live1.mediadesk.al/oranews.m3u8
 https://live1.mediadesk.al/oranews.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Culture;News,OstWest24" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Culture;News,OstWest24.png" group-title="新闻财经" response-time="1259ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Culture;News,OstWest24
+http://stream.mcquack.net/455/index.m3u8
+http://stream.mcquack.net/455/index.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="1142ms",PBO (1080p)
 http://190.93.224.42/PBO/index.m3u8
 http://190.93.224.42/PBO/index.m3u8
@@ -4300,6 +4566,9 @@ https://tgn.bozztv.com/cus01/ucur1/Payvand/index.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="2245ms",Perviy Informationniy HD (1080p)
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
+#EXTINF:-1 group-title="海外·国际新闻" response-time="1809ms",Power TV (India) (576p)
+https://powertvkannada.com/hls/stream.m3u8
+https://powertvkannada.com/hls/stream.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="2281ms",Prameya News7 (576p)
 https://mumt03.tangotv.in/Dsly5z3HPRAMEYANEWS7/index.m3u8
 https://mumt03.tangotv.in/Dsly5z3HPRAMEYANEWS7/index.m3u8
@@ -4692,50 +4961,24 @@ https://i24newsfrench-cdn.encoders.immergo.tv/master.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="1300ms",i24NEWS Hebrew (1080p)
 https://i24newshebrew-cdn.encoders.immergo.tv/master.m3u8
 https://i24newshebrew-cdn.encoders.immergo.tv/master.m3u8
-#EXTINF:-1 group-title="海外·国际新闻" response-time="1222ms",Channel 5 (Ukraine) (1080p)
-http://stream.mcquack.net/291/index.m3u8
-http://stream.mcquack.net/291/index.m3u8
-#EXTINF:-1 group-title="海外·国际新闻" response-time="1907ms",News18 Kannada (1080p)
-https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
-https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/142.0.0.0Safari/537.36Edg/142.0.0.0grouptitle=News,NortheastLive" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/142.0.0.0Safari/537.36Edg/142.0.0.0grouptitle=News,NortheastLive.png" group-title="新闻财经" response-time="2002ms",likeGecko)Chrome/142.0.0.0Safari/537.36Edg/142.0.0.0grouptitle=News,NortheastLive
-https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8
-https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8
-#EXTINF:-1 group-title="海外·国际新闻" response-time="1809ms",Power TV (India) (576p)
-https://powertvkannada.com/hls/stream.m3u8
-https://powertvkannada.com/hls/stream.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Business;News,CNBCMongolia" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Business;News,CNBCMongolia.png" group-title="新闻财经" response-time="2215ms",likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=Business;News,CNBCMongolia
-https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
-https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=News,ETV(Mongolia)" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=News,ETV(Mongolia).png" group-title="新闻财经" response-time="1963ms",likeGecko)Chrome/144.0.0.0Safari/537.36grouptitle=News,ETV(Mongolia)
-https://cdn4.skygo.mn/live/disk1/ETV/DASH-FTA/ETV.mpd
-https://cdn4.skygo.mn/live/disk1/ETV/DASH-FTA/ETV.mpd
-#EXTINF:-1 group-title="海外·国际新闻" response-time="1899ms",Eagle News (1080p)
-https://cdn4.skygo.mn/live/disk1/Eagle/DASH-FTA/Eagle.mpd
-https://cdn4.skygo.mn/live/disk1/Eagle/DASH-FTA/Eagle.mpd
-#EXTINF:-1 group-title="海外·国际新闻" response-time="1702ms",Mongolian News Channel (1080p)
-https://cdn4.skygo.mn/live/disk1/MNCTV/DASH-FTA/MNCTV.mpd
-https://cdn4.skygo.mn/live/disk1/MNCTV/DASH-FTA/MNCTV.mpd
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Culture;News,OstWest24" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Culture;News,OstWest24.png" group-title="新闻财经" response-time="1259ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Culture;News,OstWest24
-http://stream.mcquack.net/455/index.m3u8
-http://stream.mcquack.net/455/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=News,MyUkrainaTV" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=News,MyUkrainaTV.png" group-title="新闻财经" response-time="1257ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=News,MyUkrainaTV
-http://stream.mcquack.net/442/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/154.0.0.0Safari/537.36grouptitle=News,Franceinfo" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/154.0.0.0Safari/537.36grouptitle=News,Franceinfo.png" group-title="新闻财经" response-time="1146ms",likeGecko)Chrome/154.0.0.0Safari/537.36grouptitle=News,Franceinfo
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8
-#EXTINF:-1 group-title="海外·国际新闻" response-time="2539ms",Antena 3 CNN (1080p)
-https://live3vox.antenaplay.ro/a3free/a3free.m3u8
-https://live3vox.antenaplay.ro/a3free/a3free.m3u8
 #EXTINF:-1 group-title="海外·国际新闻" response-time="2171ms",ntv (720p)
 https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8
 https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8
 #EXTINF:-1 tvg-name="东莞新闻" tvg-logo="https://live.fanmingming.cn/tv/东莞新闻.png" group-title="新闻财经" response-time="2023ms",东莞新闻
 https://live.goodiptv.club/api/itouch.php?id=2395
+#EXTINF:-1 tvg-name="中国交通" tvg-logo="https://live.fanmingming.cn/tv/中国交通.png" group-title="新闻财经" response-time="712ms",中国交通
+http://171.213.171.190:8899/udp/239.94.0.87:5140
+http://171.213.171.190:8899/udp/239.94.2.193:5140
+#EXTINF:-1 tvg-name="中国天气" tvg-logo="https://live.fanmingming.cn/tv/中国天气.png" group-title="新闻财经" response-time="1500ms",中国天气
+http://171.213.171.190:8899/udp/239.94.1.167:5140
+#EXTINF:-1 tvg-name="丽水新闻" tvg-logo="https://live.fanmingming.cn/tv/丽水新闻.png" group-title="新闻财经" response-time="1552ms",丽水新闻
+http://36.22.80.199:4022/udp/233.50.201.162:5140
 #EXTINF:-1 tvg-name="南宁新闻" tvg-logo="https://live.fanmingming.cn/tv/南宁新闻.png" group-title="新闻财经" response-time="142ms",南宁新闻
 http://hls.nntv.cn/nnlive/NNTV_NEWS_A.m3u8?zguangxd
 #EXTINF:-1 tvg-name="句容新闻" tvg-logo="https://live.fanmingming.cn/tv/句容新闻.png" group-title="新闻财经" response-time="341ms",句容新闻
 http://jrlive.jrntv.com/live/_definst_/jrxwzhs/playlist.m3u8?zjiangsd
+#EXTINF:-1 tvg-name="四川经济" tvg-logo="https://live.fanmingming.cn/tv/四川经济.png" group-title="新闻财经" response-time="387ms",四川经济
+http://171.213.171.190:8899/udp/239.94.0.70:5140
 #EXTINF:-1 tvg-name="如东新闻" tvg-logo="https://live.fanmingming.cn/tv/如东新闻.png" group-title="新闻财经" response-time="485ms",如东新闻
 http://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8?zjiangsd
 #EXTINF:-1 tvg-name="宿州新闻" tvg-logo="https://live.fanmingming.cn/tv/宿州新闻.png" group-title="新闻财经" response-time="208ms",宿州新闻
@@ -4744,6 +4987,8 @@ http://live.ahsz.tv/video/s10001-szzh/index.m3u8?zanhd
 http://live1.gatv.com.cn:85/live/XWZH.m3u8
 #EXTINF:-1 tvg-name="张家港新闻" tvg-logo="https://live.fanmingming.cn/tv/张家港新闻.png" group-title="新闻财经" response-time="355ms",张家港新闻
 http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8?zjiangsd
+#EXTINF:-1 tvg-name="德阳新闻" tvg-logo="https://live.fanmingming.cn/tv/德阳新闻.png" group-title="新闻财经" response-time="675ms",德阳新闻
+http://171.213.171.190:8899/udp/239.94.0.176:5140
 #EXTINF:-1 tvg-name="新沂新闻频道" tvg-logo="https://live.fanmingming.cn/tv/新沂新闻频道.png" group-title="新闻财经" response-time="216ms",新沂新闻频道
 http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd
 #EXTINF:-1 tvg-name="普陀新闻" tvg-logo="https://live.fanmingming.cn/tv/普陀新闻.png" group-title="新闻财经" response-time="208ms",普陀新闻
@@ -4976,6 +5221,9 @@ https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 #EXTINF:-1 tvg-name="DMF" tvg-logo="https://live.fanmingming.cn/tv/DMF.png" group-title="音乐综艺" response-time="2339ms",DMF
 https://d-m-f.iptv-playoutcenter.de/dmf/dmf1/playlist.m3u8
+#EXTINF:-1 group-title="海外·国际音乐" response-time="2488ms",DM Sat (576p)
+https://shift03.isp.bg/DMSat/index.m3u8
+https://shift03.isp.bg/DMSat/index.m3u8
 #EXTINF:-1 group-title="海外·国际音乐" response-time="1940ms",DanceTV Deep House District (1080p)
 https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
 https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
@@ -5109,6 +5357,9 @@ https://online.tvimpact.live/hls/dancetv.m3u8
 #EXTINF:-1 group-title="海外·国际音乐" response-time="1620ms",Impact TV Manele (1080p)
 https://online.tvimpact.live/hls/impact_tv.m3u8
 https://online.tvimpact.live/hls/impact_tv.m3u8
+#EXTINF:-1 group-title="海外·国际音乐" response-time="1165ms",InRating TV (1080p)
+http://stream.mcquack.net/147/index.m3u8
+http://stream.mcquack.net/147/index.m3u8
 #EXTINF:-1 group-title="海外·国际音乐" response-time="2402ms",Insync (576p)
 https://mumt04.tangotv.in/m18aqlK4INSYNC/index.m3u8
 https://mumt04.tangotv.in/m18aqlK4INSYNC/index.m3u8
@@ -5207,6 +5458,12 @@ https://stmv6.voxtvhd.com.br/losangeles/losangeles/playlist.m3u8
 https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
 #EXTINF:-1 tvg-name="M1(480p)" tvg-logo="https://live.fanmingming.cn/tv/M1(480p).png" group-title="音乐综艺" response-time="2340ms",M1(480p)
 https://m-1.data.lt/m-1/smil:m-1.smil/playlist.m3u8
+#EXTINF:-1 group-title="海外·国际音乐" response-time="1724ms",M1 (Ukraine) (1080p)
+http://stream.mcquack.net/218/index.m3u8
+http://stream.mcquack.net/218/index.m3u8
+#EXTINF:-1 group-title="海外·国际音乐" response-time="1406ms",M2 (Ukraine) (1080p)
+http://stream.mcquack.net/330/index.m3u8
+http://stream.mcquack.net/330/index.m3u8
 #EXTINF:-1 tvg-name="MBCAmerica" tvg-logo="https://live.fanmingming.cn/tv/MBCAmerica.png" group-title="音乐综艺" response-time="1229ms",MBCAmerica
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
@@ -5749,6 +6006,9 @@ https://hdbox.chunklistv.com/live?stream=tvone
 #EXTINF:-1 group-title="海外·国际音乐" response-time="1706ms",TVR Folclor
 https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/playlist.m3u8
 https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Music,TVRodina" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Music,TVRodina.png" group-title="音乐综艺" response-time="2709ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Music,TVRodina
+https://shift03.isp.bg/RodinaTV/index.m3u8
+https://shift03.isp.bg/RodinaTV/index.m3u8
 #EXTINF:-1 tvg-name="TVSMusicNetwork" tvg-logo="https://live.fanmingming.cn/tv/TVSMusicNetwork.png" group-title="音乐综艺" response-time="1795ms",TVSMusicNetwork
 https://rpn.bozztv.com/gusa/gusa-tvsmusic/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsmusic/index.m3u8
@@ -5977,21 +6237,6 @@ https://gjirafa-video-live.gjirafa.net/gjvideo-live/j3a-n14-2pf-g3s/index.m3u8
 #EXTINF:-1 group-title="海外·国际音乐" response-time="1396ms",Zwei Music Television
 https://zweiapp.b-cdn.net/1080p/index.m3u8
 https://zweiapp.b-cdn.net/1080p/index.m3u8
-#EXTINF:-1 group-title="海外·国际音乐" response-time="1724ms",M1 (Ukraine) (1080p)
-http://stream.mcquack.net/218/index.m3u8
-http://stream.mcquack.net/218/index.m3u8
-#EXTINF:-1 group-title="海外·国际音乐" response-time="1406ms",M2 (Ukraine) (1080p)
-http://stream.mcquack.net/330/index.m3u8
-http://stream.mcquack.net/330/index.m3u8
-#EXTINF:-1 group-title="海外·国际音乐" response-time="2488ms",DM Sat (576p)
-https://shift03.isp.bg/DMSat/index.m3u8
-https://shift03.isp.bg/DMSat/index.m3u8
-#EXTINF:-1 group-title="海外·国际音乐" response-time="1165ms",InRating TV (1080p)
-http://stream.mcquack.net/147/index.m3u8
-http://stream.mcquack.net/147/index.m3u8
-#EXTINF:-1 tvg-name="likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Music,TVRodina" tvg-logo="https://live.fanmingming.cn/tv/likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Music,TVRodina.png" group-title="音乐综艺" response-time="2709ms",likeGecko)Chrome/149.0.0.0Safari/537.36grouptitle=Music,TVRodina
-https://shift03.isp.bg/RodinaTV/index.m3u8
-https://shift03.isp.bg/RodinaTV/index.m3u8
 #EXTINF:-1 tvg-name="mfm" tvg-logo="https://live.fanmingming.cn/tv/mfm.png" group-title="音乐综艺" response-time="1265ms",mfm
 https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8
 https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8
@@ -6004,11 +6249,21 @@ http://bizcommon.alicdn.com/l2nDqpMmn6DGHnWzZQA/lhaW77A2RRwiJrh0CiJ%40%40hd.m3u8
 http://bizcommon.alicdn.com/l2nDqpMmn6DGHnWzZQA/Pd8qTC385qKJVXaXcKj%40%40hd.m3u8
 #EXTINF:-1 tvg-name="孟庭苇风中有朵雨做的云" tvg-logo="https://live.fanmingming.cn/tv/孟庭苇风中有朵雨做的云.png" group-title="音乐综艺" response-time="132ms",孟庭苇风中有朵雨做的云
 http://bizcommon.alicdn.com/l2nDqpMmn6DGHnWzZQA/Cg9qI5imMInpPvK5Mnm%40%40hd.m3u8
+#EXTINF:-1 tvg-name="戏曲专区" tvg-logo="https://live.fanmingming.cn/tv/戏曲专区.png" group-title="音乐综艺" response-time="3500ms",戏曲专区
+http://171.213.171.190:8899/udp/239.94.1.38:5140
+#EXTINF:-1 tvg-name="戏曲精选" tvg-logo="https://live.fanmingming.cn/tv/戏曲精选.png" group-title="音乐综艺" response-time="503ms",戏曲精选
+http://171.213.171.190:8899/udp/239.94.1.37:5140
 #EXTINF:-1 tvg-name="斗鱼音乐一FHD" tvg-logo="https://live.fanmingming.cn/tv/斗鱼音乐一FHD.png" group-title="音乐综艺" response-time="3654ms",斗鱼音乐一FHD
 http://epg.112114.xyz/douyu/9588891
+#EXTINF:-1 tvg-name="晴彩广场舞" tvg-logo="https://live.fanmingming.cn/tv/晴彩广场舞.png" group-title="音乐综艺" response-time="1190ms",晴彩广场舞
+http://36.22.80.199:4022/udp/233.50.201.226:5140
+http://36.22.80.199:4022/udp/233.50.202.29:5140
 #EXTINF:-1 tvg-name="最强综艺趴" tvg-logo="https://live.fanmingming.cn/tv/最强综艺趴.png" group-title="音乐综艺" response-time="824ms",最强综艺趴
 http://113.98.11.46:3000/629942228
 http://103.236.77.86:29824/629942228
+#EXTINF:-1 tvg-name="综艺咖秀" tvg-logo="https://live.fanmingming.cn/tv/综艺咖秀.png" group-title="音乐综艺" response-time="714ms",综艺咖秀
+http://171.213.171.190:8899/udp/239.94.2.27:5140
+http://171.213.171.190:8899/udp/239.94.2.28:5140
 #EXTINF:-1 tvg-name="陈慧娴逝去的诺言" tvg-logo="https://live.fanmingming.cn/tv/陈慧娴逝去的诺言.png" group-title="音乐综艺" response-time="545ms",陈慧娴逝去的诺言
 http://bizcommon.alicdn.com/l2nDqpMmn6DGHnWzZQA/i78cWdjCSglPJHDaedL%40%40ld.m3u8
 #EXTINF:-1 tvg-name="音乐现场" tvg-logo="https://live.fanmingming.cn/tv/音乐现场.png" group-title="音乐综艺" response-time="576ms",音乐现场
